@@ -1,0 +1,17 @@
+.team__icon{
+    width: 70px;
+    height: 70px;
+}
+.team__item{
+    list-style-type: none;
+}
+.job__item{
+    list-style-type: none;
+}
+.press-items{
+    list-style-type: none;
+} 
+.press__icon{
+    width: 232px;
+    height: 147px;
+}
