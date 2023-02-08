@@ -1,17 +1,13 @@
-.team__icon{
-    width: 70px;
-    height: 70px;
-}
-.team__item{
-    list-style-type: none;
-}
-.job__item{
-    list-style-type: none;
-}
-.press-items{
-    list-style-type: none;
-} 
-.press__icon{
-    width: 232px;
-    height: 147px;
-}
+@import url(common.css);
+@import url(controls.css);
+@import url(header.css);
+@import url(why__wrapper.css);
+@import url(ico__progress.css);
+@import url(advantages.css);
+@import url(stages.css);
+@import url(distribution.css);
+@import url(core__features.css);
+@import url(team.css);
+@import url(section__question-need-cryptochange.css);
+@import url(news.css);
+@import url(footer.css);
