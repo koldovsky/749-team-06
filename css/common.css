@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --text-color: black;
+}
+
+/* .container {
+    max-width: 1200px;
+    margin: auto;
+} */
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.yellow__line{
+    color: #ffb811;
+}
