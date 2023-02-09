@@ -10,6 +10,7 @@
     --color-elements: rgb(255 184 17);
     --color-text: rgb(207, 205, 216);
     --color-title: #fff;
+    --color-link:rgba(255,255,255,0.49);
     font-family: 'Fira Sans', sans-serif;
 }
 
