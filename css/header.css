@@ -1,7 +1,9 @@
+
 .header {
-    height: 746px;
     background-image: url(../img/header/header_background.png);
     background-position: center;
+    background-size: cover;
+    height: 100vh;
     max-width: none;
 }
 
@@ -11,6 +13,8 @@
 
 .header__nav {
     padding: 30px 24px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .header__banner {
@@ -45,4 +49,10 @@
     line-height: 27px;
     font-weight: 700;
     padding: 14px;
+}
+@media (max-width: 500px) {
+    .header {
+        height: 85vh;
+    }
+
 }
