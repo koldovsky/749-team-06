@@ -1,22 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
-    --text-color: black;
+    --color-elements: rgb(255 184 17);
+    --color-text: rgb(207, 205, 216);
+    --color-title: #fff;
+    font-family: 'Fira Sans', sans-serif;
 }
 
-/* .container {
+.container {
     max-width: 1200px;
     margin: auto;
-} */
+}
 
 img {
     display: block;
     width: 100%;
 }
 
-.yellow__line{
+.yellow__line {
     color: #ffb811;
 }
