@@ -11,6 +11,8 @@
     --color-text: rgb(207, 205, 216);
     --color-title: #fff;
     --color-link:rgba(255,255,255,0.49);
+    --color-background-button: rgb(255 184 17);
+    --color-text-button: rgb(26, 28, 40);
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -19,11 +21,13 @@
     margin: auto;
 }
 
+
 img {
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    
 }
+
 
 .yellow__line {
     color: #ffb811;
