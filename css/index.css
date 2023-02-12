@@ -8,6 +8,9 @@
 @import url(distribution.css);
 @import url(core__features.css);
 @import url(team.css);
-@import url(section__question-need-cryptochange.css);
+@import url(media-about-cryptochange);
+@import url(section-question-need-cryptochange.css);
+@import url(section-feedback-from-investors);
+@import url(investors-carousel);
 @import url(news.css);
 @import url(footer.css);
