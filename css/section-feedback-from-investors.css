@@ -1,0 +1,39 @@
+.section__feedback-from-investors{
+    background-color: var(--section-question-need-cryptochange-background-color);
+    background-size: cover;
+    display: block;
+    min-width: 320px;
+    padding-top: 55px;
+    padding-bottom: 60px;
+    font-size: 30px;   
+    font-family: 'Ubuntu', sans-serif;
+}
+.title__section-feedback-from-investors{
+    display:flex;
+    padding-right: 40px;
+    padding-left: 40px;
+    justify-content: center;
+}
+.title__feedback-from-investors{
+    color: var(--color-title);
+    display: block;
+    justify-content: center;
+}
+.block__investor-dean-stuart-photo {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+.investor-smith, .investor-johnson, .investor-stuart{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.container__carrousel-with-investors-feedback{
+    display:flex;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 50px;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}

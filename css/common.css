@@ -1,30 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu:wght@700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 :root {
     --color-elements: rgb(255 184 17);
     --color-text: rgb(207, 205, 216);
     --color-title: #fff;
     --color-link:rgba(255,255,255,0.49);
+    --section-title-text-color: #FFFFFF;
+    --subtitle-statistic-text-color:#A7A7B1;
+    --dash-between-title-and-subtitle-color:#ffffff1c;
+    --section-question-need-cryptochange-background-color:#21283D;
+    --dash-before-title-question-need-cryptochange-color:#FFB811;
     font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
-
 .container {
     max-width: 1200px;
     margin: auto;
 }
-
 img {
     display: block;
     width: 200px;
     height: 200px;
 }
-
 .yellow__line {
     color: #ffb811;
 }
