@@ -16,6 +16,8 @@
     --dash-between-title-and-subtitle-color:#ffffff1c;
     --section-question-need-cryptochange-background-color:#21283D;
     --dash-before-title-question-need-cryptochange-color:#FFB811;
+    --color-background-button: rgb(255 184 17);
+    --color-text-button: rgb(26, 28, 40);
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -23,11 +25,14 @@
     max-width: 1200px;
     margin: auto;
 }
+
 img {
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    
 }
+
+
 .yellow__line {
     color: #ffb811;
 }
