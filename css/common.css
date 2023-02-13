@@ -18,8 +18,10 @@
     --dash-before-title-question-need-cryptochange-color:#FFB811;
     --color-background-button: rgb(255 184 17);
     --color-text-button: rgb(26, 28, 40);
+    --textname-investors-color:#FFFFFF;
+    --subtitle-text-speech-investors-color:#A7A7B1;
+    --date-post-speech-investors-color: #4D8EFF;
     font-family: 'Fira Sans', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
 }
 .container {
     max-width: 1200px;
