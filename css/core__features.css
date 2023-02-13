@@ -39,6 +39,7 @@
     cursor: pointer;
 }
 .features__link {
+    text-decoration: none;
     color: rgb(127,132,221);
     font-family: "Fira Sans", sans-serif;
     font-size: 15px;
