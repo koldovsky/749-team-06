@@ -3,3 +3,26 @@
     background-color: #1a1c28;
     display: flex;
 }
+
+.features__start features__continue {
+    display: flex;
+}
+
+.features__name {
+    font-family: "Ubantu", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    text-transform: none;
+    color: var(--color-title);
+}
+.features__believe {
+    color: rgb(207, 205, 216);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    text-transform: none;
+}
