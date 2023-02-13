@@ -18,7 +18,7 @@
     font-size: 17px;
 
 }
-.date__post-speech-investor-kilian-smith{
+.date__post-speech-investor-kilian-smith, .block__date-post-speech-investor-diana-johnson, .block__date-post-speech-investor-dean-stuart {
     color: var(--date-post-speech-investors-color);
     font-family: 'Fira Sans', sans-serif;
     font-size: 12px;
