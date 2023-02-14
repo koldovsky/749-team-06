@@ -1,9 +1,8 @@
 #download_application {
     background-color: #2e3e61;
-    
 }
+
 .features__text {
-    background-color: #2e3e61;
     display: flex;
     flex-direction: column;
 }
@@ -20,7 +19,6 @@
     text-align: left;
     text-transform: none;
     color: var(--color-title);
-    background-color: rgb(26, 28, 40);
 }
 .features__believe {
     color: var(--color-text);
@@ -53,6 +51,10 @@
     text-transform: none;
     line-height: 24px;
     cursor: pointer;
+}
+
+.features__carousel-block {
+    background-image: url(..img/background_carousel);
 }
 
 
