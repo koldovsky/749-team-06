@@ -1,0 +1,5 @@
+.section__news-block-column{
+    background-color: var(--section-question-need-cryptochange-background-color);
+    background-image: linear-gradient(0deg, rgb(26, 28, 40) 0%, rgb(33, 40, 61) 100%);
+}
+

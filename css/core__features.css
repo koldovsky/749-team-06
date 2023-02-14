@@ -1,0 +1,74 @@
+#download_application {
+    background-color: #2e3e61;
+}
+
+.features__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.features__start features__continue {
+    display: flex;
+}
+
+.features__name {
+    font-family: "Ubantu", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    text-transform: none;
+    color: var(--color-title);
+}
+.features__believe {
+    color: var(--color-text);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    text-transform: none;
+}
+.features__question {
+    color: var(--color-text);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    text-transform: none;
+    line-height: 27.2px;
+    cursor: pointer;
+}
+.features__link {
+    text-decoration: none;
+    color: rgb(127,132,221);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    text-transform: none;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.features__carousel-information {
+    background-image: url(../img/background_carousel.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+@media (min-width: 600px) {
+    .features__text {
+        flex-direction: row;
+        flex: 1;
+        justify-content: space-around;
+    }
+}

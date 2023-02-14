@@ -1,0 +1,58 @@
+.ico-progress {
+    background: linear-gradient(0deg, #2e3e61 0%, rgb(33, 40, 61) 100%);
+    padding: 55px 0 20px;
+}
+
+.content-container {
+    padding: 0 24px;
+}
+
+.section-title__title {
+    font-family: 'Ubantu', sans-serif;
+    font-size: 30px;
+    color: var(--color-title);
+}
+
+.ico-progress__row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.row__title {
+    font-family: inherit;
+    font-size: 14px;
+    color: #7F84DD;
+    margin-bottom: 25px;
+}
+
+.row__value {
+    font-family: 'Ubantu', sans-serif;
+    font-size: 18px;
+    color: var(--color-text);
+}
+
+.button {
+    background-color: var(--color-elements);
+    border: var(--color-elements) solid 1px;
+    display: inline-block;
+    padding: 18px 30px;
+    margin: 10px 10px 10px 0px;
+
+}
+
+.ico-progress__button {
+    text-decoration: none;
+    font-size: 16.5px;
+    color: var(--color-text-button)
+}
+
+.button:hover,
+.button:active {
+    background: linear-gradient(rgb(127 132 221), rgb(186, 88, 208));
+}
+
+.ico-progress__image {
+    margin: 25px 0;
+}

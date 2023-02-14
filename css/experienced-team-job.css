@@ -1,0 +1,112 @@
+.experienced__team-and-job-opportunities {
+    display: flex;
+    flex-direction: column;
+    background-color: #222a40;
+    height: 1945px;
+    padding: 0 24px;
+}
+
+.experienced__team {
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.experienced__title-container {
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+}
+
+.experienced__title-line {
+    width: 25px;
+    height: 20px;
+
+}
+
+.experienced__title {
+
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--color-title);
+}
+
+.experienced__team-content-first-group,
+.experienced__team-content-second-group {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.experienced__team-item {
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.experienced__team-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+    padding-right: 10px;
+}
+
+.experienced__team-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--color-title);
+}
+
+.experienced__team-job-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-title);
+}
+
+.experienced__team-text {
+    height: 85px;
+}
+
+
+.job__opportunities {
+    height: 605px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.job__opportunities-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-title);
+}
+
+.press {
+    background-color: #2e3e61;
+    min-height: 100%;
+}
+
+.press__items {
+    align-items: center;
+    justify-content: center;
+}
+
+.press__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-title);
+}
+
+.press__text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-text);
+}
+
+.press__icon {
+    width: 272px;
+    height: 172px;
+}
