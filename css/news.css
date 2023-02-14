@@ -43,6 +43,10 @@
     border-radius: 50%;
 }
 
+.container__article-news{
+    list-style-type: none;
+}
+
 @media (min-width: 768px) {
     .wrapper__news {
         display: flex;
