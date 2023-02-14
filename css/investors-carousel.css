@@ -1,0 +1,39 @@
+.container__carousel-investors {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: auto;
+    grid-column-gap: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 50px;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container__investors {
+    background-color: #2A3045;
+    padding-top: 40px;
+    padding-right: 45px;
+    padding-bottom: 40px;
+    padding-left: 45px;
+    gap: 10px;
+}
+
+.text__title-fnames-investors {
+    color: var(--color-headline-and-title);
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text__article-investors {
+    color: var(--color-subtitle-statistics);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 17px;
+}
+
+.article__datetime-investors {
+    color: var(--color-datetime-investors);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+}
