@@ -1,0 +1,68 @@
+.stages {
+    background: linear-gradient(0deg, #2e3e61 0%, rgb(33, 40, 61) 100%);
+    padding: 55px 24px 60px;
+}
+
+.roadmap__title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.roadmap-title__title {
+    font-family: 'Ubantu', sans-serif;
+    font-size: 30px;
+    color: var(--color-title);
+}
+
+.roadmap-title__addition {
+    margin-top: 20px;
+    font-size: 19px;
+    color: var(--color-text)
+}
+
+.roadmap-title__link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+    color: #7F84DD;
+}
+
+.roadmap__table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.table__column {
+    display: flex
+}
+
+.table__figure {
+    width: 100%;
+}
+
+.table__number {
+    text-align: center;
+}
+
+.text__month-year {
+    font-family: 'Ubantu', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(77,142,255);
+}
+
+.text__title {
+    font-family: 'Ubantu', sans-serif;
+    font-size: 18px;
+    color: var(--color-title)
+}
+
+.text__description {
+    font-size: 17px;
+    color: rgb(167,167,177);
+    margin-top: 20px;
+
+}
