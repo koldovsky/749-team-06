@@ -1,0 +1,55 @@
+
+@media (max-width: 1920px) {
+    .footer__footer_wrapper {
+        background-color: var(--color-background);
+        width: fit-content;
+        padding: 60px 60px;
+    }
+}
+
+@media (max-width: 960px) {
+    .footer__footer_wrapper {
+        background-color: var(--color-background);
+        width: fit-content;
+        padding: 60px 45px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer__footer_wrapper {
+        background-color: var(--color-background);
+        width: fit-content;
+        padding: 60px 30px;
+    }
+}
+
+
+.footer__company-info {
+    width: fit-content;
+}
+
+.footer__company-info-logo {
+    display: block;
+    justify-content: center;
+    width: 190px;
+    margin: 0px  auto 30px auto;
+}
+
+.footer__company-info-description {
+    color: var(--color-text);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer__company-info-buy-crp-tokens {
+    color: var(--color-text);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer__line {
+    color: rgb(26, 28, 40);
+}

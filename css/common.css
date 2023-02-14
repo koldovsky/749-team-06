@@ -1,25 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu:wght@700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 :root {
+    --color-background: rgb(26, 28, 40);
     --color-elements: rgb(255 184 17);
     --color-text: rgb(207, 205, 216);
     --color-title: #fff;
     --color-link:rgba(255,255,255,0.49);
-    /* --section-title-text-color: #FFFFFF; Замінити на --color-title */
-    /* --subtitle-statistic-text-color:#A7A7B1;  Замінити на --color-text */
-    /* --dash-between-title-and-subtitle-color:#ffffff1c; Замінити назву */
-    /* --section-question-need-cryptochange-background-color:#21283D;  Замінити назву */
-    /* --dash-before-title-question-need-cryptochange-color:#FFB811; Замінити на --color-elements */
-    /* --color-background-button: rgb(255 184 17); Замінити на --color-elements */
     --color-text-button: rgb(26, 28, 40);
-    /* --textname-investors-color:#FFFFFF;  Замінити на --color-title */
-    /* --subtitle-text-speech-investors-color:#A7A7B1;  Замінити на --color-text */
-    /* --date-post-speech-investors-color: #4D8EFF; Замінити назву */
+    --color-background-statistics:rgb(33, 40, 61);
+    --color-background-substrate:rgb(42, 48, 69);
+    --color-subtitle:rgb(167, 167, 177);
+    --color-datetime-investors:rgb(77, 142, 255);
+    --color-datetime-news:rgb(127, 132, 221);
     font-family: 'Fira Sans', sans-serif;
 }
 .container {
@@ -28,8 +24,8 @@
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+   
     
 }
 

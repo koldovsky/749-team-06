@@ -101,3 +101,10 @@
         justify-content: space-around;
     }
 }
+@media (min-width: 600px) {
+    .features__text {
+        flex-direction: row;
+        flex: 1;
+        justify-content: space-around;
+    }
+}
