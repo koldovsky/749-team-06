@@ -1,0 +1,30 @@
+.smith-block, .johnson-block, .stuart-block{
+    background-color: #2A3045;
+    padding-top: 40px;
+    padding-right: 45px;
+    padding-bottom: 40px;
+    padding-left: 45px;
+}
+
+.text__name-investor-kilian-smith, .text__name-investor-diana-johnson, .text__name-investor-dean-stuart{
+    color: var(--textname-investors-color);
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.subtext__text-speech-investor-kilian-smith, .subtext__text-speech-investor-diana-johnson, .subtext__text-speech-investor-dean-stuart{
+    color: var(--subtitle-text-speech-investors-color);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 17px;
+
+}
+.date__post-speech-investor-kilian-smith, .block__date-post-speech-investor-diana-johnson, .block__date-post-speech-investor-dean-stuart {
+    color: var(--date-post-speech-investors-color);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+
+
+
