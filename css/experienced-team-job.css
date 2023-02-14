@@ -1,0 +1,25 @@
+@media (min-width:320px){
+    .experienced__team-and-job-opportunities{
+        width:100%;
+        display: block;
+        background-color: blueviolet;
+      
+    }
+
+    .job__opportunities{
+        width:100%;
+    }
+    .experienced__team-item li{
+        width:100%;
+     display: flex;
+     align-items: center;
+       
+    }
+    .experienced__team-icon{
+        width:50%;
+
+    }
+    .experienced__team-text{
+        width:50%;
+    }
+}
