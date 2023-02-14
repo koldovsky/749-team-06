@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu:wght@700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 :root {
+    --color-background: rgb(26, 28, 40);
     --color-elements: rgb(255 184 17);
     --color-text: rgb(207, 205, 216);
     --color-title: #fff;
