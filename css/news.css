@@ -18,18 +18,18 @@
 }
 
 .container__title-news {
-    color: var(--color-headline-and-title);
+    color: var(--color-title);
 }
 
 .container__divider-news {
-    background: var(--color-dash-and-title-statistic);
+    background: var(--color-subtitle);
     height: 3px;
     border: 0;
     width: 20%;
 }
 
 .container__text-article-news {
-    color: var(--color-headline-and-title);
+    color: var(--color-title);
     font-size: 17px;
 }
 

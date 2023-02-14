@@ -9,12 +9,12 @@
 }
 
 .text__title-statistics {
-    color: var(--color-dash-and-title-statistic);
+    color: var(--color-elements);
     font-size: 30px;
 }
 
 .text__subtitle-statistics {
-    color: var(--color-subtitle-statistics);
+    color: var(--color-subtitle);
     font-family: 'Fira Sans', sans-serif;
     font-size: 15px;
     display: inline;

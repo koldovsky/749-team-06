@@ -20,7 +20,7 @@
 }
 
 .container__headline-dash {
-    color: var(--color-dash-and-title-statistic);
+    color: var(--color-elements);
     display: flex;
     padding-top: 0;
     padding-right: 15px;
@@ -35,7 +35,7 @@
 }
 
 .container__headline-question-text {
-    color: var(--color-headline-and-title);
+    color: var(--color-title);
     display: block;
     justify-content: center;
 }
