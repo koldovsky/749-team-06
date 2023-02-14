@@ -92,16 +92,36 @@
     text-align: left;
 }
 
-
-
-@media (min-width: 600px) {
-    .features__text {
-        flex-direction: row;
-        flex: 1;
-        justify-content: space-around;
-    }
+.advantage__text {
+    display: flex;
+    flex-direction: column;
 }
-@media (min-width: 600px) {
+
+.advantage__icon {
+    width: 26px;
+    height: 26px;
+    background: #1a1c28;
+}
+.advantage__label label {
+    width: 320px;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.label__appstore, .label__googleplay {
+    width: 135px;
+    height: 42px;
+    margin: 10px 10px 10px 10px;
+    border-color: white;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 3%;
+}
+
+
+
+@media (min-width: 320px) {
     .features__text {
         flex-direction: row;
         flex: 1;
