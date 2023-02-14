@@ -1,6 +1,6 @@
 
 .features__text {
-    background-color: linear-gradient(0deg, #2e3e61 0%, rgb(33, 40, 61) 100%);
+    background-color: #2e3e61;
     display: flex;
     flex-direction: column;
 }
