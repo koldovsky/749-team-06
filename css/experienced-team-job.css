@@ -14,14 +14,18 @@
 }
 
 .title__container {
-    height: 85px;
+    height: 65px;
     display: flex;
     flex-direction: row;
 }
 
 .title__line {
-    width: 45px;
-    height: 29px;
+    display: block;
+    width: 48px;
+    height: 5px;
+    background-color: #ffb811;
+    margin-top: 15px;
+    margin-right: 20px;
 }
 
 .title__name {
@@ -82,19 +86,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-top: 100px;
-    padding-bottom: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .job__line {
     width: 100%;
-  
+
 }
 
 .job__item {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .job__city {
@@ -119,15 +123,19 @@
 }
 
 .press__media {
-    padding-top: 50px;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
 }
 
 .press__items {
-    height: 280px;
+    min-height: 280px;
 }
 
+.press__icon {
+
+    object-fit: cover;
+}
 
 .press__name {
     padding-top: 10px;
@@ -135,36 +143,45 @@
     font-weight: 400;
     color: #A7A7B1;
 }
-.press__become-a-partner{
-    padding-top:30px;
+
+.container__want-become-partner {
+    margin-top: 30px;
+}
+
+.press__become-a-partner {
+    padding-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
+
 .paragraph__want-become-a-partner {
     font-size: 19px;
     color: #CFCDD8;
     font-style: italic;
-    
+
 }
-.paragraph__want-become-a-partner span{
-    color:#ffb811;
+
+.paragraph__want-become-a-partner span {
+    color: #ffb811;
 }
-.press__contact-us-button{
-    font-size:  15px;
+
+.press__contact-us-button {
+    font-size: 15px;
     color: #1a1c28;
-    width:124px;
-    height:48px;
+    width: 124px;
+    height: 48px;
     background-color: #ffb811;
     text-decoration: none;
     text-align: center;
-    padding-top:13px;
-    
+    padding-top: 13px;
+
 }
-.press__learn-more{
+
+.press__learn-more {
     font-size: 16px;
     color: #fff;
     font-weight: 600;
     text-decoration: none;
-    padding-top:12px;
+    padding-top: 12px;
 }
