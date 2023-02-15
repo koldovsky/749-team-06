@@ -1,7 +1,7 @@
 .experienced__team-and-job-opportunities {
     display: flex;
     flex-direction: column;
-    background-color: #222a40;
+    background-color: var(--color-background-eight-block);
     min-height: 1945px;
     padding: 50px 24px;
 }
@@ -23,7 +23,7 @@
     display: block;
     width: 48px;
     height: 5px;
-    background-color: #ffb811;
+    background-color: var(--color-elements);
     margin-top: 15px;
     margin-right: 20px;
 }
@@ -68,7 +68,7 @@
 .experienced__team-post {
     font-size: 17px;
     font-weight: 700;
-    color: #A7A7B1;
+    color: var(--color-subtitle);
 }
 
 .experienced__team-name-and-post {
@@ -104,7 +104,7 @@
 .job__city {
     font-size: 14px;
     font-weight: 700;
-    color: #7f84dd;
+    color: var(--color-title-city);
 }
 
 .job__post {
@@ -115,7 +115,7 @@
 }
 
 .job__apply {
-    color: #ffb811;
+    color: var(--color-elements);
     text-decoration: none;
     font-weight: 800;
     font-size: 15px;
@@ -141,7 +141,7 @@
     padding-top: 10px;
     font-size: 17px;
     font-weight: 400;
-    color: #A7A7B1;
+    color: var(--color-link);
 }
 
 .container__want-become-partner {
@@ -157,13 +157,13 @@
 
 .paragraph__want-become-a-partner {
     font-size: 19px;
-    color: #CFCDD8;
+    color: var(--color-text);
     font-style: italic;
 
 }
 
 .paragraph__want-become-a-partner span {
-    color: #ffb811;
+    color: var(--color-elements);
 }
 
 .press__contact-us-button {
@@ -171,7 +171,7 @@
     color: #1a1c28;
     width: 124px;
     height: 48px;
-    background-color: #ffb811;
+    background-color: var(--color-elements);
     text-decoration: none;
     text-align: center;
     padding-top: 13px;
@@ -180,7 +180,7 @@
 
 .press__learn-more {
     font-size: 16px;
-    color: #fff;
+    color: var(--color-title);
     font-weight: 600;
     text-decoration: none;
     padding-top: 12px;
