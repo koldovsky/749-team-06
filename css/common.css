@@ -25,11 +25,5 @@
 
 img {
     width: 100%;
-   
-    
-}
-
-
-.yellow__line {
-    color: #ffb811;
+    display: block;
 }
