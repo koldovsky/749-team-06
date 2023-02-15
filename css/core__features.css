@@ -53,6 +53,14 @@
     cursor: pointer;
 }
 
+.demo__application {
+    /*display: flex;*/
+}
+
+.features__carousel {
+    
+    margin: 20px 0px 100 px 0px;
+}
 .features__carousel-gradient {
     height: 15px;
     width: auto;
@@ -92,6 +100,38 @@
     text-align: left;
 }
 
+.application__download {
+    display: flex;
+    padding-right: 5px;
+    padding-left: 5px;
+    justify-content: left;
+    min-height: 126px;
+}
+.application__box-line {
+    color: var(--color-elements);
+    display: flex;
+    padding-top: 0;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    justify-content: left;
+    align-items: start;
+    min-width: none;
+}
+
+.application__line {
+    border-image-width: 1;
+}
+
+.application__call {
+    font-size: 34px;
+    text-align: left;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Ubuntu", sans-serif;
+    color: var(--color-title);
+}
+
 .advantage__block {
     display: flex;
     padding: 8px 0px 8px 0px;
@@ -104,7 +144,6 @@
     display: flex;
     border-radius: 50%;
     margin: 7px;
-
 }
 
 .advantage__text {
@@ -139,8 +178,18 @@
     font-weight: 400;
     text-align: left;
     text-transform: none;
-    line-height: 27.2px;
-    
+    line-height: 27.2px; 
+}
+
+.application__background {
+    width: 400px;
+    display: flex;
+    /*background-image: url(img/background_phone.webp);*/
+}
+
+.application__phone {
+    width: 280px;
+    display: flex;
 }
 
 
