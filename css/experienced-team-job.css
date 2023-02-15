@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: #222a40;
     min-height: 1945px;
-    padding: 0 24px;
+    padding: 50px 24px;
 }
 
 .experienced__team {
@@ -30,6 +30,10 @@
     color: var(--color-title);
 }
 
+.experienced__team-content {
+    padding-top: 30px;
+}
+
 .experienced__team-content-first-group,
 .experienced__team-content-second-group {
     height: 600px;
@@ -52,56 +56,115 @@
 }
 
 .experienced__team-name {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
     color: var(--color-title);
 }
 
 .experienced__team-post {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
-    color: var(--color-text);
+    color: #A7A7B1;
 }
 
 .experienced__team-name-and-post {
     height: 85px;
-    padding-top:15px;
-    padding-left:10px;
+    padding-top: 15px;
+    padding-left: 10px;
 }
 
+.title__container {
+    padding-top: 50px;
+}
 
 .job__opportunities {
     height: 605px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.job__line {
+    width: 100%;
+  
+}
+
+.job__item {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .job__city {
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
     color: #7f84dd;
 }
 
+.job__post {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--color-title);
+    padding-top: 30px;
+}
+
+.job__apply {
+    color: #ffb811;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
 .press__media {
-    height: 1700px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
 }
 
 .press__items {
-    align-items: center;
-    justify-content: center;
+    height: 280px;
 }
 
-.press__title {
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--color-title);
-}
 
-.press__text {
-    font-size: 16px;
+.press__name {
+    padding-top: 10px;
+    font-size: 17px;
     font-weight: 400;
-    color: var(--color-text);
+    color: #A7A7B1;
+}
+.press__become-a-partner{
+    padding-top:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.paragraph__want-become-a-partner {
+    font-size: 19px;
+    color: #CFCDD8;
+    font-style: italic;
+    
+}
+.paragraph__want-become-a-partner span{
+    color:#ffb811;
+}
+.press__contact-us-button{
+    font-size:  15px;
+    color: #1a1c28;
+    width:124px;
+    height:48px;
+    background-color: #ffb811;
+    text-decoration: none;
+    text-align: center;
+    padding-top:13px;
+    
+}
+.press__learn-more{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    padding-top:12px;
 }
