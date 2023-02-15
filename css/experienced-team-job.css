@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     background-color: #222a40;
-    height: 1945px;
+    min-height: 1945px;
     padding: 0 24px;
 }
 
@@ -13,21 +13,19 @@
     justify-content: space-evenly;
 }
 
-.experienced__title-container {
+.title__container {
     height: 85px;
     display: flex;
     flex-direction: row;
 }
 
-.experienced__title-line {
-    width: 25px;
-    height: 20px;
-
+.title__line {
+    width: 45px;
+    height: 29px;
 }
 
-.experienced__title {
-
-    font-size: 20px;
+.title__name {
+    font-size: 30px;
     font-weight: 800;
     color: var(--color-title);
 }
@@ -50,24 +48,25 @@
 .experienced__team-icon {
     width: 70px;
     height: 70px;
-    border-radius: 25px;
     padding-right: 10px;
 }
 
-.experienced__team-title {
+.experienced__team-name {
     font-size: 22px;
     font-weight: 700;
     color: var(--color-title);
 }
 
-.experienced__team-job-title {
+.experienced__team-post {
     font-size: 18px;
     font-weight: 700;
-    color: var(--color-title);
+    color: var(--color-text);
 }
 
-.experienced__team-text {
+.experienced__team-name-and-post {
     height: 85px;
+    padding-top:15px;
+    padding-left:10px;
 }
 
 
@@ -78,15 +77,16 @@
     justify-content: space-evenly;
 }
 
-.job__opportunities-title {
+.job__city {
     font-size: 20px;
     font-weight: 700;
-    color: var(--color-title);
+    color: #7f84dd;
 }
 
-.press {
-    background-color: #2e3e61;
-    min-height: 100%;
+.press__media {
+    height: 1700px;
+    display: flex;
+    flex-direction: column;
 }
 
 .press__items {
@@ -104,9 +104,4 @@
     font-size: 16px;
     font-weight: 400;
     color: var(--color-text);
-}
-
-.press__icon {
-    width: 272px;
-    height: 172px;
 }
