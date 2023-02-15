@@ -92,6 +92,11 @@
     text-align: left;
 }
 
+.advantage__block {
+    display: flex;
+    flex-direction: column;
+}
+
 .advantage__text {
     display: flex;
     flex-direction: column;
@@ -117,6 +122,17 @@
     border-width: 0.5px;
     border-style: solid;
     border-radius: 3%;
+}
+.advantage__name {
+    color: var(--color-text);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    text-transform: none;
+    line-height: 27.2px;
+    
 }
 
 
