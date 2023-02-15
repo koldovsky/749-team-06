@@ -158,7 +158,12 @@
 }
 .advantage__label {
     display: flex;
+    flex-direction: column;
     column-gap: 20px;
+}
+
+.label__appstore-container {
+    background-size: cover;
 }
 
 .label__appstore, .label__googleplay {
@@ -182,22 +187,22 @@
 }
 
 .application__background {
-    width: 400px;
+    width: 320px;
     display: flex;
     /*background-image: url(img/background_phone.webp);*/
 }
 
 .application__phone {
-    width: 280px;
+    width: 200px;
     display: flex;
 }
 
 
 
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
     .features__text {
         flex-direction: row;
         flex: 1;
         justify-content: space-around;
     }
-}
+} */
