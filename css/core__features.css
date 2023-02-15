@@ -142,7 +142,7 @@
     height: 50px;
     background: #1a1c28;
     display: flex;
-    border-radius: 50%;
+    border-radius: 55%;
     margin: 7px;
 }
 
@@ -173,7 +173,7 @@
     border-color: white;
     border-width: 0.5px;
     border-style: solid;
-    border-radius: 4%;
+    border-radius: 7%;
 }
 .advantage__name {
     color: var(--color-text);
@@ -194,7 +194,14 @@
 
 .application__phone {
     width: 200px;
-    display: flex;
+
+}
+
+.banner__background {
+    width: 279px;
+    height: 272px;
+    background-image: linear-gradient(105deg, #6a1cd1 39%, #ce2ab2 96%);
+    margin: auto;
 }
 
 
