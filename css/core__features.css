@@ -53,19 +53,75 @@
     cursor: pointer;
 }
 
+.features__carousel-gradient {
+    height: 15px;
+    width: auto;
+    background-image: linear-gradient(105deg, #17C89D 39%, #346BC0 96%);
+}
+
 .features__carousel-information {
-    background-image: url(../img/background_carousel.svg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    height: 200px;
+    width: auto;
+    background: #1a1c28;;
+}
+.features__carousel-block {
+    width: 260px;
+    height: 215px;
+    padding: 10px 15px 5px 10px;
+}
+
+.features__carousel-features {
+    color: var(--color-text);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    text-transform: none;
+    padding: 20px 10px 0px 15px;
+}
+.features__carousel-benefit {
+    color: var(--color-text);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    text-transform: none;
+    padding: 20px 5px 0px 15px;
+    text-align: left;
+}
+
+.advantage__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.advantage__icon {
+    width: 26px;
+    height: 26px;
+    background: #1a1c28;
+}
+.advantage__label label {
+    width: 320px;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.label__appstore, .label__googleplay {
+    width: 135px;
+    height: 42px;
+    margin: 10px 10px 10px 10px;
+    border-color: white;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 3%;
 }
 
 
-@media (min-width: 600px) {
+
+@media (min-width: 320px) {
     .features__text {
         flex-direction: row;
         flex: 1;

@@ -8,18 +8,11 @@
 @import url(distribution.css);
 @import url(core__features.css);
 @import url(team.css);
-@import url(media-about-cryptochange);
-@import url(section-question-need-cryptochange.css);
-@import url(statistics-blocks.css);
+@import url(investors-carousel.css);
+@import url(question-with-statistics.css);
+@import url(statistic-blocks.css);
+@import url(investors-feedback.css);
+@import url(news.css);
 @import url(experienced-team-job.css);
 @import url(section-feedback-from-investors.css);
-@import url(media-about-cryptochange.css);
-
-/* @import url(section-question-need-cryptochange.css); */
-/* @import url(statistics-blocks.css); */
-/* @import url(section-feedback-from-investors.css); */
-/* @import url(container-investors-carousel.css); */
-/* @import url(section-crypto-news.css); */
-
-@import url(news.css);
 @import url(footer.css);
