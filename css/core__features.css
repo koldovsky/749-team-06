@@ -200,8 +200,18 @@
 .banner__background {
     width: 279px;
     height: 272px;
-    background-image: linear-gradient(105deg, #6a1cd1 39%, #ce2ab2 96%);
+    background:linear-gradient(-82deg, rgb(186, 88, 208) 0%, #7f84dd 100%);
     margin: auto;
+    -webkit-box-pack: center;
+}
+
+.banner__call {
+    font-size: 30px;
+    text-align: left;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Ubuntu", sans-serif;
+    color: var(--color-title);
 }
 
 
