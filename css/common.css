@@ -9,9 +9,11 @@
     --color-elements: rgb(255 184 17);
     --color-text: rgb(207, 205, 216);
     --color-title: #fff;
+    --color-title-city: #7f84dd;
     --color-link:rgba(255,255,255,0.49);
     --color-text-button: rgb(26, 28, 40);
     --color-background-statistics:rgb(33, 40, 61);
+    --color-background-eight-block: #222a40;
     --color-background-substrate:rgb(42, 48, 69);
     --color-subtitle:rgb(167, 167, 177);
     --color-datetime-investors:rgb(77, 142, 255);
@@ -25,11 +27,5 @@
 
 img {
     width: 100%;
-   
-    
-}
-
-
-.yellow__line {
-    color: #ffb811;
+    display: block;
 }

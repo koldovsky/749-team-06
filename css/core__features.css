@@ -59,7 +59,7 @@
 
 .features__carousel {
     
-    margin: 20px 0px 100 px 0px;
+    margin: 20px 0px 100px 0px;
 }
 .features__carousel-gradient {
     height: 15px;
@@ -116,7 +116,6 @@
     padding-left: 15px;
     justify-content: left;
     align-items: start;
-    min-width: none;
 }
 
 .application__line {

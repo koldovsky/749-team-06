@@ -1,6 +1,6 @@
 .container__carousel-investors {
     display: grid;
-    grid-template-rows: 400px 400px 400px;
+    grid-template-rows: 400px;
     grid-template-rows: auto;
     gap: 30px;
     padding-right: 40px;
