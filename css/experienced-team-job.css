@@ -133,7 +133,6 @@
 }
 
 .press__icon {
-
     object-fit: cover;
 }
 
@@ -144,9 +143,7 @@
     color: var(--color-link);
 }
 
-.container__want-become-partner {
-    margin-top: 30px;
-}
+
 
 .press__become-a-partner {
     padding-top: 30px;
@@ -185,3 +182,4 @@
     text-decoration: none;
     padding-top: 12px;
 }
+
