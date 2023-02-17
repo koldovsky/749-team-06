@@ -196,15 +196,26 @@
 
 }
 
+.banner__wraper {
+    width: 100%;
+    height: 399px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 .banner__background {
     width: 279px;
     height: 272px;
     background:linear-gradient(-82deg, rgb(186, 88, 208) 0%, #7f84dd 100%);
-    margin: auto;
-    -webkit-box-pack: center;
+
 }
 
 .banner__call {
+    display: block;
+    display: flex;
+    line-height: 42px;
     font-size: 30px;
     text-align: left;
     font-weight: 700;
