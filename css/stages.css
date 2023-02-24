@@ -15,7 +15,7 @@
 }
 
 .roadmap-title__addition {
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
     font-size: 19px;
     color: var(--color-text)
 }
@@ -32,20 +32,43 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
 }
 
 .table__column {
-    display: flex
+    display: flex;
+    justify-content: center;
 }
 
 .table__figure {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.table__circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(-145deg, rgb(52, 107, 192) 0%, rgb(186, 88, 208) 100%);
+    border-radius: 48%;
+    margin-top: 13px;
 }
 
 .table__number {
-    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    color: var(--color-text);
 }
+
+
+.column__text {
+  display: block;
+  margin: 15px;
+}
+
 
 .text__month-year {
     font-family: 'Ubantu', sans-serif;
