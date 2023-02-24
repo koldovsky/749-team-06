@@ -59,7 +59,7 @@
 
 .features__carousel {
     
-    margin: 20px 0px 100 px 0px;
+    margin: 20px 0px 100px 0px;
 }
 .features__carousel-gradient {
     height: 15px;
@@ -116,7 +116,6 @@
     padding-left: 15px;
     justify-content: left;
     align-items: start;
-    min-width: none;
 }
 
 .application__line {
@@ -197,11 +196,32 @@
 
 }
 
+.banner__wraper {
+    width: 100%;
+    height: 399px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 .banner__background {
     width: 279px;
     height: 272px;
-    background-image: linear-gradient(105deg, #6a1cd1 39%, #ce2ab2 96%);
-    margin: auto;
+    background:linear-gradient(-82deg, rgb(186, 88, 208) 0%, #7f84dd 100%);
+
+}
+
+.banner__call {
+    display: block;
+    display: flex;
+    line-height: 42px;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Ubuntu", sans-serif;
+    color: var(--color-title);
 }
 
 
