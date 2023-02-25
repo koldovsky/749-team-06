@@ -1,5 +1,5 @@
 #team {
-    padding: 20px 24px;
+
     background-color: var(--color-background-eight-block);
 }
 
@@ -156,6 +156,7 @@
 
 .container__want-become-partner {
     margin: 0 auto;
+    padding-top: 20px;
     width: 90%;
 }
 
@@ -220,8 +221,9 @@
     }
 
     .job__item-wrap {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr 1fr;
+
 
     }
 
@@ -259,6 +261,12 @@
         flex-direction: row;
     }
 
+    .experienced__team-content {
+        display: grid;
+        grid-template-columns: 1.3fr 1fr;
+
+
+    }
 
     .job__item-wrap {
         display: flex;
@@ -272,7 +280,7 @@
     }
 
     .press__items {
-        min-height: 170px;
+        min-height: 200px;
     }
 
     .press__items-wrap {
