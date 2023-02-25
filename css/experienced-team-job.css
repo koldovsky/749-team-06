@@ -4,13 +4,13 @@
 }
 
 .experienced__team {
-    margin: 0 auto;
+    
 }
 
 .experienced__team-and-job-opportunities {
     display: flex;
     flex-direction: column;
-    padding: 0 10px;
+    padding: 0 24px;
 }
 
 
@@ -132,7 +132,7 @@
 .press__media {
     display: flex;
     flex-direction: column;
-
+    padding:0 24px;
 }
 
 .press__items-wrap {
@@ -210,9 +210,9 @@
 
 @media (min-width: 640px) {
     .experienced__team-content {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
 
     }
 
@@ -240,7 +240,12 @@
 
 @media (min-width: 768px) {
 
+    .experienced__team-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
 
+    }
 
 
     .press__items {
@@ -259,11 +264,12 @@
     .experienced__team-and-job-opportunities {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
     }
 
     .experienced__team-content {
         display: grid;
-        grid-template-columns: 1.3fr 1fr;
+        grid-template-columns: 1fr 1fr;
 
 
     }
@@ -277,6 +283,7 @@
 
     .job__line {
         display: block;
+        width: 100%;
     }
 
     .press__items {
@@ -291,5 +298,13 @@
 
     .container__want-become-partner {
         width: 70%;
+    }
+}
+@media (min-width: 1200px) {
+    .experienced__team-content {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+
+
     }
 }
