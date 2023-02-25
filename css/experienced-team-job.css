@@ -132,7 +132,7 @@
 .press__media {
     display: flex;
     flex-direction: column;
-    padding:0 24px;
+    padding:10px 24px;
 }
 
 .press__items-wrap {
@@ -154,12 +154,6 @@
     object-fit: cover;
 }
 
-.container__want-become-partner {
-    margin: 0 auto;
-    padding-top: 20px;
-    width: 90%;
-}
-
 .press__name {
     padding-top: 10px;
     font-size: 17px;
@@ -169,19 +163,26 @@
 }
 
 
+.container__want-become-partner {
+    display: flex;
+    flex-direction: column;
+    padding:0 24px;
+}
+
 
 .press__become-a-partner {
-    padding-top: 30px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+   
 }
 
 .paragraph__want-become-a-partner {
     font-size: 19px;
     color: var(--color-text);
     font-style: italic;
-
+  text-align: center;
 }
 
 .paragraph__want-become-a-partner span {
@@ -197,7 +198,7 @@
     text-decoration: none;
     text-align: center;
     padding-top: 13px;
-
+    margin-top: 15px;
 }
 
 .press__learn-more {
@@ -205,7 +206,7 @@
     color: var(--color-title);
     font-weight: 600;
     text-decoration: none;
-    padding-top: 12px;
+   margin-top: 15px;
 }
 
 @media (min-width: 640px) {
@@ -232,10 +233,10 @@
         grid-template-columns: 1fr 1fr;
         column-gap: 20px;
     }
+    
+    
 
-    .container__want-become-partner {
-        width: 80%;
-    }
+   
 }
 
 @media (min-width: 768px) {
@@ -256,6 +257,28 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         column-gap: 10px;
+    }
+    .container__want-become-partner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      
+    }
+    
+    
+    .press__become-a-partner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       padding:0;
+       
+    }
+ 
+    .press__learn-more {
+        margin-left: 15px;
+    }
+    .press__contact-us-button, 
+    .press__learn-more{
+        margin-top:0;
     }
 
 }
@@ -295,10 +318,22 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         column-gap: 10px;
     }
-
     .container__want-become-partner {
-        width: 70%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      
     }
+    
+    
+    .press__become-a-partner {
+        display: flex;
+        flex-direction: row;
+        
+       padding:0;
+       
+    }
+  
+ 
 }
 @media (min-width: 1200px) {
     .experienced__team-content {
