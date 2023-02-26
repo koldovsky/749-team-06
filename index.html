@@ -12,7 +12,9 @@
 
 <body>
     <header class="header container">
-        <!-- <div class="header__contacts container" >
+        <div class='heder__burger-open'>
+        </div>
+        <div class="header__contacts container">
             <div class="header__contacts-support support">
                 <p class="support__text">Support us on: </p>
                 <a class="support__link" href="#"> ICO listings</a>
@@ -22,13 +24,19 @@
                 <a class="write__link" href="mailto:cryptochange@email.com">cryptochange@email.com</a>
             </div>
         </div>
-        <div class="header__line"></div> -->
-        <!-- 1 -->
+        <div class="header__line"></div>
         <nav class="header__nav container">
-            <a class="header__logo-container " href="#">
-                <img class="header__logo" src="img/cryptochange-logo.svg" alt="cryptochange-logo">
-            </a>
-            <!-- <div class="header__menu" container>
+            <div class="header__logo-burger">
+                <a class="header__logo-container " href="#">
+                    <img class="header__logo" src="img/cryptochange-logo.svg" alt="cryptochange-logo">
+                </a>
+                <div class="burger-container">
+                    <div class="burger">
+                        <span class="burger-element"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="header__menu  container" >
                 <ul class="header__menu-list list">
                     <li class="list__about-container">
                         <a class="list__about-link header__list" href="#why__cryptochange">About</a>
@@ -46,7 +54,17 @@
                         <a class="list__news-link header__list" href="#news">News</a>
                     </li>
                 </ul>
-            </div> -->
+                <div class="burger__contacts">
+                    <div class="burger__contacts-support support">
+                        <p class="support__text-burger">Support us on: </p>
+                        <a class="support__link-burger" href="#"> ICO listings</a>
+                    </div>
+                    <div class="burger__contacts-write write">
+                        <p class="write__text-burger">Write us: </p>
+                        <a class="write__link-burger" href="mailto:cryptochange@email.com">cryptochange@email.com</a>
+                    </div>
+                </div>
+            </div>
         </nav>
         <div class="header__banner container">
             <h1 class="header__banner-title">Blockchain Exchange</h1>
@@ -55,7 +73,6 @@
             <a class="header__banner-download" href="#">Download Whitepaper →</a>
         </div>
     </header>
-
     <main>
         <!--2 section-->
         <!--add class name into tags (p,button,div)-->
@@ -221,7 +238,6 @@
                         <img class="ico-progress__image" width="200" src="img/cryptocurrency-chart.jpg"
                             alt="cryptocurrency chart">
                     </div>
-
                 </div>
             </div>
         </section>
@@ -265,7 +281,6 @@
                 <p>Do you need to withdraw your crypto assets to your bank account? No worries, we can do that due to
                     our financial partners.</p>
             </div>
-
         </section>
         <!--end of 4 section-->
         <!--5 section-->
@@ -665,6 +680,7 @@
                 </div>
             </div>
             <div class="banner__wraper">
+<<<<<<< HEAD
                 <div class="banner__background">
                     <div class="banner__download">
                         <div>
@@ -674,9 +690,21 @@
                             <p class="banner__description">Learn more about our project and cryptonomics.<a
                                     href="#" class="banner__description-question"> Download
                                     Now ↓</a></p>
+=======
+                    <div class="banner__background">
+                        <div class="banner__download">
+                            <div>
+                                <h2 class="banner__call">Download Whitepaper</h2>
+                            </div>
+                            <div>
+                                <p class="banner__description">Learn more about our project and cryptonomics.<a
+                                   
+                                    href="#">Download
+                                            Now ↓</a></p>
+                            </div>
+>>>>>>> c1f523925ae5be18f10d9b732ef3c4cf32fc31ea
                         </div>
                     </div>
-                </div>
             </div>
         </section>
         <!--end of section 7-->
@@ -1297,7 +1325,6 @@
             </div>
         </div>
     </footer>
-    <script src="js/clock.js"></script>
+    <script src="js/heder-burger.js"></script>
 </body>
-
 </html>
