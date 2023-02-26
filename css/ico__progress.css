@@ -7,10 +7,20 @@
     padding: 0 24px;
 }
 
+.title-line {
+    color: var(--color-elements);
+}
+
 .section-title__title {
     font-family: 'Ubantu', sans-serif;
     font-size: 30px;
     color: var(--color-title);
+}
+
+.clock {
+    margin-top: 15px;
+    color: var(--color-text);
+    font-size: 20px;
 }
 
 .ico-progress__row {
