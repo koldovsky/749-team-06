@@ -272,20 +272,20 @@
 /*.application__background {
     width: 100%;
     display: flex;
-    /*background-image: url(img/background_phone.webp);
+    *background-image: url(img/background_phone.webp);
     margin: 20px 0px 0px 0px;
-    /*background-attachment: fixed;
+    *background-attachment: fixed;
 }*/
 
 /*.application__phone-block {
-    /*width: 100px;*/
-    /*position: absolute;*/
-    /*top: 50px;
+    /*width: 100px;*g
+    /*position: absolute;*
+       /*top: 50px;
     left: 50px;
     object-fit: cover;
     width: 100%;
     height: 100%;
-    /*z-index: 1;
+    *z-index: 1;
 }
 .application__phone {
     /*width: 100px;*/
@@ -298,15 +298,12 @@
     z-index: 1;
 }*/
 
-
-
 .banner__wraper {
     /*width: 100%;*/
     height: 399px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /*margin: auto;*/
 }
 
 .banner__background {
