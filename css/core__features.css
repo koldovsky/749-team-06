@@ -2,16 +2,33 @@
     background-color: #2e3e61;
 }
 
-.features__text {
+.features__coniner-text {
     display: flex;
     flex-direction: column;
 }
 
-.features__start features__continue {
-    display: flex;
+.features__title  {
+   /* display: flex;*/
+   color: var(--color-title);
+   display: block;
+   justify-content: center;
+   margin-top: 20px;
 }
 
-.features__name {
+.features__box-line {
+    color: var(--color-elements);
+    display: flex;
+    padding: 0px 5px 0px 15px;
+    justify-content: left;
+    align-items: start;
+    display: inline-block;
+}
+
+.features__line {
+    border-image-width: 1;
+}
+
+.features__box-title {
     font-family: "Ubantu", sans-serif;
     font-size: 30px;
     font-style: normal;
@@ -19,8 +36,13 @@
     text-align: left;
     text-transform: none;
     color: var(--color-title);
+    margin: 0px 0px 0px 10px;
+    display: block;
+    display: inline-block;
 }
-.features__believe {
+.features__believe-text,
+.application__offer {
+    display: block;
     color: var(--color-text);
     font-family: "Fira Sans", sans-serif;
     font-size: 19px;
@@ -28,29 +50,34 @@
     font-weight: 400;
     text-align: left;
     text-transform: none;
+    margin: 25px 0px 0px 15px;
+}
+.features__box-question {
+    margin: 50px 0px 0px 15px;
 }
 .features__question {
-    color: var(--color-text);
+    color: var(--color-title);
     font-family: "Fira Sans", sans-serif;
     font-size: 17px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     text-align: left;
     text-transform: none;
     line-height: 27.2px;
-    cursor: pointer;
+    /*cursor: pointer;*/
+    
 }
-.features__link {
+.features__question-link {
     text-decoration: none;
-    color: rgb(127,132,221);
+    color: var(--color-title-city);
     font-family: "Fira Sans", sans-serif;
     font-size: 15px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     text-align: left;
     text-transform: none;
     line-height: 24px;
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 
 .demo__application {
@@ -61,6 +88,15 @@
     
     margin: 20px 0px 100px 0px;
 }
+
+.features__carousel-block {
+    width: 260px;
+    height: 295px;
+    padding: 10px 15px 5px 10px;
+    margin: auto;
+
+}
+
 .features__carousel-gradient {
     height: 15px;
     width: auto;
@@ -68,52 +104,52 @@
 }
 
 .features__carousel-information {
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 235px;
+    margin: auto;
     background: #1a1c28;;
 }
-.features__carousel-block {
-    width: 260px;
-    height: 215px;
-    padding: 10px 15px 5px 10px;
-}
 
-.features__carousel-features {
-    color: var(--color-text);
-    font-family: "Fira Sans", sans-serif;
+
+.features__carousel-title {
+    color: var(--color-title);
+    font-family: "Ubuntu", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     text-align: left;
     text-transform: none;
-    padding: 20px 10px 0px 15px;
+    line-height: 23.4px;
+    padding: 20px 20px 0px 20px;
+    /*margin: 0px 20px 0px 20px;*/
 }
 .features__carousel-benefit {
-    color: var(--color-text);
+    color: var(--color-subtitle);
     font-family: "Fira Sans", sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
     text-align: left;
     text-transform: none;
-    padding: 20px 5px 0px 15px;
-    text-align: left;
+    line-height: 27.2px;
+    height: 200px;
+    margin: 20px 20px 10px 20px;
+    /*padding: 20px 20px 10px 20px;*/
+    /*max-width: 100%;*/
+}
+
+.demo__application {
+    padding: 0px 15px 0px 15px;
 }
 
 .application__download {
     display: flex;
-    padding-right: 5px;
-    padding-left: 5px;
     justify-content: left;
     min-height: 126px;
 }
 .application__box-line {
     color: var(--color-elements);
     display: flex;
-    padding-top: 0;
-    padding-right: 15px;
-    padding-bottom: 0px;
-    padding-left: 15px;
     justify-content: left;
     align-items: start;
 }
@@ -122,7 +158,7 @@
     border-image-width: 1;
 }
 
-.application__call {
+.application__title {
     font-size: 34px;
     text-align: left;
     font-weight: 700;
@@ -141,20 +177,47 @@
     height: 50px;
     background: #1a1c28;
     display: flex;
-    border-radius: 55%;
-    margin: 7px;
-}
-
-.advantage__text {
-    display: flex;
-    flex-direction: column;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .advantage__icon {
     width: 26px;
     height: 26px;
     margin: auto;
+    text-align: center;
 }
+
+.advantage__block-text {
+    display: flex;
+    flex-direction: column;
+    margin: 7.5px;
+}
+
+.advantage__title {
+    color: var(--color-title);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    text-transform: none;
+    line-height: 27.2px;
+    max-width: 100%;
+}
+
+.advantage__description {
+    color: var(--color-subtitle);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    text-transform: none;
+    line-height: 27.2px;
+    max-width: 100%;
+}
+
 .advantage__label {
     display: flex;
     flex-direction: column;
@@ -189,27 +252,32 @@
     width: 320px;
     display: flex;
     /*background-image: url(img/background_phone.webp);*/
+    padding: 20px 20px 20px 20px;
 }
 
-.application__phone {
-    width: 200px;
+/*.application__phone {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;*/
 
 }
 
 .banner__wraper {
-    width: 100%;
+    /*width: 100%;*/
     height: 399px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    /*margin: auto;*/
 }
 
 .banner__background {
     width: 279px;
     height: 272px;
     background:linear-gradient(-82deg, rgb(186, 88, 208) 0%, #7f84dd 100%);
-
+    padding: 31px 39px  31px 39px;
 }
 
 .banner__call {
@@ -222,6 +290,30 @@
     font-style: normal;
     font-family: "Ubuntu", sans-serif;
     color: var(--color-title);
+}
+
+.banner__description {
+    color: var(--color-link);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    text-transform: none;
+    line-height: 27.2px;
+    margin-top: 25px;
+}
+
+.banner__description-question {
+    text-decoration: none;
+    color: var(--color-elements);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    text-transform: none;
+    line-height: 27.2px;
 }
 
 
