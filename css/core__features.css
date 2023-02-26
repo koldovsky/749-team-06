@@ -233,9 +233,9 @@
     height: 42px;
     margin: 10px 10px 10px 10px;
     border-color: white;
-    border-width: 0.5px;
+    border-width: 1px;
     border-style: solid;
-    border-radius: 7%;
+    border-radius: 7px;
 }
 .advantage__name {
     color: var(--color-text);
@@ -249,20 +249,56 @@
 }
 
 .application__background {
-    width: 320px;
-    display: flex;
-    /*background-image: url(img/background_phone.webp);*/
-    padding: 20px 20px 20px 20px;
+    background-image: url(../img/background_phone.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    position: relative;
 }
 
-/*.application__phone {
-    width: 100px;
+.application__background img {
     position: absolute;
-    top: 50px;
-    left: 50px;
-    z-index: 1;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 40%;
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 10px;
+  }
 
+/*.application__background {
+    width: 100%;
+    display: flex;
+    /*background-image: url(img/background_phone.webp);
+    margin: 20px 0px 0px 0px;
+    /*background-attachment: fixed;
+}*/
+
+/*.application__phone-block {
+    /*width: 100px;*/
+    /*position: absolute;*/
+    /*top: 50px;
+    left: 50px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /*z-index: 1;
 }
+.application__phone {
+    /*width: 100px;*/
+    /*position: absolute;*/
+    /*top: 50px;
+    left: 50px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}*/
+
+
 
 .banner__wraper {
     /*width: 100%;*/
