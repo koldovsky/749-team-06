@@ -1,28 +1,123 @@
 .why__wrapper {
-    background:  rgb(26,29,42);
+    background: rgb(26,29,42);
 }
-.text__container-bolt-font{
-    color: rgb(207,205,216)
 
+.main__why__cryptochange-conteiner {
+    display: flex;
+    width: 100vw;
+}
+.text__wrapper{
+    width: 50%;
+}
+
+.image__wrapper-why {
+    height: 300px;
+    width: 300px;
+}
+
+.image__wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .yellow__line-o {
     color: rgb(255, 184, 17);
 }
 
-.text__container-bolt-font{
-    color: #f8f8f8 ;
+.links__container-arrow{
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
-.text__container{
-    color: #f8f8f8
+
+.yellow__arrow {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
 }
+
 .why__header {
     color: #f8f8f8 ;
 }
 
-.links__container-arrow{
-    color: #f8f8f8
+.text__container-bolt-font {
+    color: #f8f8f8;
 }
+
+.text__container {
+    color: #f8f8f8;
+}
+
 .w__icon{
-    width: 25px
+    width: 25px;
+}
+
+.paginator__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anycash__one {
+    background-color: rgb(40,47,67);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indacoin__two{
+    background-color: rgb(40,47,67);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intotheblock__three {
+    background-color: rgb(40,47,67);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.listinghelp__four {
+    background-color: rgb(40,47,67);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mercuryo__five {
+    background-color: rgb(40,47,67);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moonpay__six {
+    background-color: rgb(40,47,67);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__left {
+    margin-left: 1%;
+    
+}
+
+.button__right {
+    margin-right: 1%;
 }
