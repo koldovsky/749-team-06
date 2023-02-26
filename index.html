@@ -12,7 +12,9 @@
 
 <body>
     <header class="header container">
-        <!-- <div class="header__contacts container" >
+        <div class='heder__burger-open'>
+        </div>
+        <div class="header__contacts container">
             <div class="header__contacts-support support">
                 <p class="support__text">Support us on: </p>
                 <a class="support__link" href="#"> ICO listings</a>
@@ -22,13 +24,19 @@
                 <a class="write__link" href="mailto:cryptochange@email.com">cryptochange@email.com</a>
             </div>
         </div>
-        <div class="header__line"></div> -->
-        <!-- 1 -->
+        <div class="header__line"></div>
         <nav class="header__nav container">
-            <a class="header__logo-container " href="#">
-                <img class="header__logo" src="img/cryptochange-logo.svg" alt="cryptochange-logo">
-            </a>
-            <!-- <div class="header__menu" container>
+            <div class="header__logo-burger">
+                <a class="header__logo-container " href="#">
+                    <img class="header__logo" src="img/cryptochange-logo.svg" alt="cryptochange-logo">
+                </a>
+                <div class="burger-container">
+                    <div class="burger">
+                        <span class="burger-element"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="header__menu" container>
                 <ul class="header__menu-list list">
                     <li class="list__about-container">
                         <a class="list__about-link header__list" href="#why__cryptochange">About</a>
@@ -46,7 +54,17 @@
                         <a class="list__news-link header__list" href="#news">News</a>
                     </li>
                 </ul>
-            </div> -->
+                <div class="burger__contacts">
+                    <div class="burger__contacts-support support">
+                        <p class="support__text-burger">Support us on: </p>
+                        <a class="support__link-burger" href="#"> ICO listings</a>
+                    </div>
+                    <div class="burger__contacts-write write">
+                        <p class="write__text-burger">Write us: </p>
+                        <a class="write__link-burger" href="mailto:cryptochange@email.com">cryptochange@email.com</a>
+                    </div>
+                </div>
+            </div>
         </nav>
         <div class="header__banner container">
             <h1 class="header__banner-title">Blockchain Exchange</h1>
@@ -700,17 +718,18 @@
                 </div>
             </div>
             <div class="banner__wraper">
-            <div class="banner__background">
-                <div class="banner__download">
-                    <div>
-                        <h2 class="banner__call">Download Whitepaper</h2>
-                    </div>
-                    <div>
-                        <p class="banner__description">Learn more about our project and cryptonomics.<a href="#">Download
-                            Now ↓</a></p>
+                <div class="banner__background">
+                    <div class="banner__download">
+                        <div>
+                            <h2 class="banner__call">Download Whitepaper</h2>
+                        </div>
+                        <div>
+                            <p class="banner__description">Learn more about our project and cryptonomics.<a
+                                    href="#">Download
+                                    Now ↓</a></p>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </section>
         <!--end of section 7-->
@@ -1323,6 +1342,16 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.querySelector('.burger').addEventListener('click', function () {
+            this.classList.toggle('active');
+            document.querySelector('.heder__burger-open').classList.toggle('open')
+            document.querySelector('body').classList.toggle('overflow');
+            document.querySelector('.header__menu').classList.toggle('burger-open');
+            document.querySelector('.burger__contacts').classList.toggle('burger-open');
+
+        })
+    </script>
 </body>
 
 </html>
