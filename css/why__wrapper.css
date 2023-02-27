@@ -2,21 +2,25 @@
     background: rgb(26,29,42);
 }
 
-.main__why__cryptochange-conteiner {
+
+
+.why__cryptochange-block {
     display: flex;
     width: 100vw;
+    flex-wrap: wrap;
 }
 .text__wrapper{
     width: 50%;
+    margin-left: 5%;
 }
 
 .image__wrapper-why {
-    height: 300px;
-    width: 300px;
+    height: 403px;
+    width: 430px;
 }
 
 .image__wrapper {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: center;
 }
@@ -120,4 +124,13 @@
 
 .button__right {
     margin-right: 1%;
+}
+
+@media (max-width:768px){
+    .text__wrapper{
+        width: 100%;
+    }
+    .image__wrapper{
+        width: 100%;
+    }
 }
