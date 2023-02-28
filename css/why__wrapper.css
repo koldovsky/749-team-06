@@ -45,11 +45,15 @@
 }
 
 .text__container-bolt-font {
-    color: #f8f8f8;
+    color: #a7a7a5;
 }
 
 .text__container {
-    color: #f8f8f8;
+    color: #a7a7a5;
+}
+
+.textwhite{
+    color: #ffffff;
 }
 
 .w__icon{
