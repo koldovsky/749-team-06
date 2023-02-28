@@ -84,6 +84,35 @@
     margin: 20px 0px 100px 0px;
 }
 
+.background_carousel__test {
+    background-image: url(../img/background_carousel.svg);
+    background-size: cover;
+    background-position: center;
+    width: 260px;
+    height: 295px;
+    position: relative;
+    margin: auto;
+}
+
+.features__carousel-information-test {
+    min-height: 170px;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.products-carousel__slider {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .features__carousel-block {
     width: 260px;
     height: 295px;
@@ -98,7 +127,7 @@
 }
 
 .features__carousel-information {
-    height: auto;
+    height: 100%;
     width: 235px;
     margin: auto;
     background: #1a1c28;;
