@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 
-<body>
+<body class="">
     <header class="header container">
-        <!-- <div class="header__contacts container" >
+        <div class='heder__burger-open'>
+        </div>
+        <div class="header__contacts container">
             <div class="header__contacts-support support">
                 <p class="support__text">Support us on: </p>
                 <a class="support__link" href="#"> ICO listings</a>
@@ -22,31 +24,47 @@
                 <a class="write__link" href="mailto:cryptochange@email.com">cryptochange@email.com</a>
             </div>
         </div>
-        <div class="header__line"></div> -->
-        <!-- 1 -->
+        <div class="header__line"></div>
         <nav class="header__nav container">
-            <a class="header__logo-container " href="#">
-                <img class="header__logo" src="img/cryptochange-logo.svg" alt="cryptochange-logo">
-            </a>
-            <!-- <div class="header__menu" container>
+            <div class="header__logo-burger">
+                <a class="header__logo-container " href="#">
+                    <img class="header__logo" src="img/cryptochange-logo.svg" alt="cryptochange-logo">
+                </a>
+                <div class="burger-container">
+                    <div class="burger">
+                        <span class="burger-element"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="header__menu  container" >
                 <ul class="header__menu-list list">
-                    <li class="list__about-container">
+                    <li class="list__about-container list" >
                         <a class="list__about-link header__list" href="#why__cryptochange">About</a>
-                    <li class="list__roadmap-container">
+                    <li class="list__roadmap-container list">
                         <a class="list__roadmap-link header__list" href="#roadmap">Roadmap</a>
-                    <li class="list__app-container">
+                    <li class="list__app-container list">
                         <a class="list__app-link header__list" href="#download_application">App</a>
-                    <li class="list__team-container">
+                    <li class="list__team-container list">
                         <a class="list__team-link header__list" href="#team">Team</a>
-                    <li class="list__press-container">
+                    <li class="list__press-container list">
                         <a class="list__press-link header__list" href="#press">Press</a>
-                    <li class="list__feedback-container">
+                    <li class="list__feedback-container list">
                         <a class="list__feedback-link header__list" href="#feedback">Feedback</a>
-                    <li class="list__news-container ">
+                    <li class="list__news-container list">
                         <a class="list__news-link header__list" href="#news">News</a>
                     </li>
                 </ul>
-            </div> -->
+                <div class="burger__contacts">
+                    <div class="burger__contacts-support support">
+                        <p class="support__text-burger">Support us on: </p>
+                        <a class="support__link-burger" href="#"> ICO listings</a>
+                    </div>
+                    <div class="burger__contacts-write write">
+                        <p class="write__text-burger">Write us: </p>
+                        <a class="write__link-burger" href="mailto:cryptochange@email.com">cryptochange@email.com</a>
+                    </div>
+                </div>
+            </div>
         </nav>
         <div class="header__banner container">
             <h1 class="header__banner-title">Blockchain Exchange</h1>
@@ -55,127 +73,125 @@
             <a class="header__banner-download" href="#">Download Whitepaper →</a>
         </div>
     </header>
-
-    <main>
+<main class="">
         <!--2 section-->
         <!--add class name into tags (p,button,div)-->
-        <section id="why__cryptochange" class="why__wrapper">
-            <div class="why__cryptochange-block">
-                <h2 class="why__header"><span class="yellow__line-o">-</span>Why cryptochange?</h2>
-                <div class="text__wrapper">
-                    <div class="text__container-bolt-font">
-                        <p>Crypto exchange has never been that easy. Get your crypto coins in seconds with zero fees.
-                        </p>
+            <section id="why__cryptochange" class="why__wrapper">
+                <div class="why__cryptochange-block">
+                    <div class="text__wrapper">
+                        <h2 class="why__header"><span class="yellow__line-o">-</span>Why cryptochange?</h2> <!--сменил с 14 позиции на 15-->
+                        <div class="text__container-bolt-font">
+                            <p>Crypto exchange has never been that easy. Get your crypto coins in seconds with zero fees.
+                            </p>
+                        </div>
+                        <div class="text__container">
+                            <p>We've created Cryptochange as an easy and fast way to exchange cryptocurrencies between users
+                                from around the world. We believe that crypto transactions can be really instant!</p>
+                        </div>
+                        <div class="text__container">
+                            <p>With our new InstSwap technology, we make all transactions twice faster than before! That is,
+                                if you need to exchange any coins or fiat money, you can do it within 10 minutes instead of
+                                2-10 hours! With Cryptochange, we step into the new crypto world. Join our ICO!</p>
+                        </div>
+                        <div class="links__container-arrow">
+                            <div class="yellow__arrow">
+                                <div class="image__one">
+                                    <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
+                                </div>
+                                <div class="yellow__arrow">
+                                    <p class="textwhite">Based on</p>
+                                  <p class="textwhite"><a class="global__white" href="https://en.wikipedia.org/wiki/Blockchain">Blockchain</a></p>
+                                </div>
+                            </div>
+                            <div class="yellow__arrow">
+                                <div class="yellow__arrow">
+                                    <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
+                                </div>
+                                <p class="textwhite"><a class="global__white" href="https://en.wikipedia.org/wiki/Global_Payments">Global Payments</a></p>
+                            </div>
+                            <div class="yellow__arrow">
+                                <div class="crypto__to-fait">
+                                    <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
+                                </div>
+                                <p class="textwhite">Crypto to Fiat</p>
+                            </div>
+                            <div class="yellow__arrow">
+                                <div class="instant__transactions">
+                                    <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
+                                </div>
+                                <p class="textwhite">Instant Transactions</p>
+                            </div>
+                            <div class="yellow__arrow">
+                                <div class="free__of-custody">
+                                    <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
+                                </div>
+                                <p class="textwhite">Free of Custody</p>
+                            </div>
+                            <div class="yellow__arrow">
+                                <div class="the__best-rates">
+                                    <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
+                                </div>
+                                <p class="textwhite">The Best Rates</p>
+                            </div>
+                            <div class="yellow__arrow">
+                                <div class="all__types__of-altcoins">
+                                    <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
+                                </div>
+                                <p class="textwhite">All Types of Altcoins</p>
+                            </div>
+                            <div class="yellow__arrow">
+                                <div class="ptwop__payments">
+                                    <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
+                                </div>
+                                <p class="textwhite">P2P Payments</p>
+                            </div>
+                            <div class="yellow__arrow">
+                                <div class="reliable__service">
+                                    <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
+                                </div>
+                                <p class="textwhite">Reliable Service</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="text__container">
-                        <p>We've created Cryptochange as an easy and fast way to exchange cryptocurrencies between users
-                            from around the world. We believe that crypto transactions can be really instant!</p>
-                    </div>
-                    <div class="text__container">
-                        <p>With our new InstSwap technology, we make all transactions twice faster than before! That is,
-                            if you need to exchange any coins or fiat money, you can do it within 10 minutes instead of
-                            2-10 hours! With Cryptochange, we step into the new crypto world. Join our ICO!</p>
-                    </div>
-                    <div class="links__container-arrow">
-                        <div class="yellow__arrow-one">
-                            <div class="image__one">
-                                <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
-                            </div>
-                            <div class="based__on">
-                                <p>Based on</p>
-                                <a href="https://en.wikipedia.org/wiki/Blockchain">Blockchain</a>
-                            </div>
-                        </div>
-                        <div class="yellow__arrow-two">
-                            <div class="global__payments">
-                                <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
-                                <a href="https://en.wikipedia.org/wiki/Global_Payments">Global Payments</a>
-                            </div>
-                        </div>
-                        <div class="yellow__arrow-three">
-                            <div class="crypto__to-fait">
-                                <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
-                                <p>Crypto to Fiat</p>
-                            </div>
-                        </div>
-                        <div class="yellow__arrow-four">
-                            <div class="instant__transactions">
-                                <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
-                                <p>Instant Transactions</p>
-                            </div>
-                        </div>
-                        <div class="yellow__arrow-five">
-                            <div class="free__of-custody">
-                                <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
-                                <p>Free of Custody</p>
-                            </div>
-                        </div>
-                        <div class="yellow__arrow-six">
-                            <div class="the__best-rates">
-                                <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
-                                <p>The Best Rates</p>
-                            </div>
-                        </div>
-                        <div class="yellow__arrow-seven">
-                            <div class="all__types__of-altcoins">
-                                <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
-                                <p>All Types of Altcoins</p>
-                            </div>
-                        </div>
-                        <div class="yellow__arrow-eight">
-                            <div class="ptwop__payments">
-                                <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
-                                <p>P2P Payments</p>
-                            </div>
-                        </div>
-                        <div class="yellow__arrow-nine">
-                            <div class="reliable__service">
-                                <img class="w__icon" src="img/yellow_arrow.svg" alt="yellow_arrow">
-                                <p>Reliable Service</p>
-                            </div>
-                        </div>
+                    <div class="image__wrapper" ><img class="image__wrapper-why" src="img/why_cryptochange.png" alt="why_cry">
                     </div>
                 </div>
-                <div class="image__wrapper"><img class="image__wrapper-why" src="img/why_cryptochange.png"
-                        alt="why_cry">
-                </div>
-                <div class="paginator__wrapper">
-                    <div class="button__left"><Button id="left_btn"></Button></div>
-                    <div class="block__group">
-                        <div class="block__one-ol">
-                            <div class="anycash__one">
-                                <img class="anycash" src="img/anycash.svg" alt="anycash" width="100">
+                    <div class="paginator__wrapper">
+                        <div class="button__left"><Button id="left_btn"></Button></div>
+                        <div class="block__group">
+                            <div class="block__one-ol">
+                                <div class="anycash__one">
+                                    <img class="anycash" src="img/anycash.svg" alt="anycash" width="100">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="block__two-ol">
-                        <div class="indacoin__two">
-                            <img class="indacoin" src="img/indacoin.svg" alt="indacoin" width="100">
+                        <div class="block__two-ol">
+                            <div class="indacoin__two">
+                                <img class="indacoin" src="img/indacoin.svg" alt="indacoin" width="100">
+                            </div>
                         </div>
-                    </div>
-                    <div class="block__three-ol">
-                        <div class="intotheblock__three">
-                            <img class="intotheblock" src="img/intotheblock.svg" alt="intotheblock" width="100">
+                        <div class="block__three-ol">
+                            <div class="intotheblock__three">
+                                <img class="intotheblock" src="img/intotheblock.svg" alt="intotheblock" width="100">
+                            </div>
                         </div>
-                    </div>
-                    <div class="block__four-ol">
-                        <div class="listinghelp__four">
-                            <img class="listinghelp" src="img/listinghelp.svg" alt="listinghelp" width="100">
+                        <div class="block__four-ol">
+                            <div class="listinghelp__four">
+                                <img class="listinghelp" src="img/listinghelp.svg" alt="listinghelp" width="100">
+                            </div>
                         </div>
-                    </div>
-                    <div class="block__five-ol">
-                        <div class="mercuryo__five">
-                            <img class="mercuryo" src="img/mercuryo.svg" alt="mercuryo" width="100">
+                        <div class="block__five-ol">
+                            <div class="mercuryo__five">
+                                <img class="mercuryo" src="img/mercuryo.svg" alt="mercuryo" width="100">
+                            </div>
                         </div>
-                    </div>
-                    <div class="block__six-ol">
-                        <div class="moonpay__six">
-                            <img class="moonpay" src="img/moonpay.svg" alt="moonpay" width="100">
+                        <div class="block__six-ol">
+                            <div class="moonpay__six">
+                                <img class="moonpay" src="img/moonpay.svg" alt="moonpay" width="100">
+                            </div>
                         </div>
+                        <div class="button__right"><Button id="right_btn"></Button></div>
                     </div>
-                    <div class="button__right"><Button id="right_btn"></Button></div>
-                </div>
-            </div>
         </section>
         <!--end of 2 section-->
         <!--3 section-->
@@ -274,7 +290,6 @@
                 <p>Do you need to withdraw your crypto assets to your bank account? No worries, we can do that due to
                     our financial partners.</p>
             </div>
-
         </section>
         <!--end of 4 section-->
         <!--5 section-->
@@ -524,91 +539,79 @@
         </section>
         <!--end of section 6-->
         <!--7 section-->
-        <section id="download_application" class="core__features features">
-            <div class="features__text">
-                <div class="application__box-line">
-                    <!--yellow line-->
-                    <h2 class="application__line">—</h2>
-                </div>
-                <div class="features__start">
-                    <div>
-                        <p class="features__name">Core Features</p>
+        <section id="download_application" class="core__features features" style="background:linear-gradient(0deg, rgb(33, 40, 61) 0%, #1a1c28 100%)">
+            <div class="features__coniner-text">
+                <div class="features__title">
+                    <div class="features__box-line">
+                        <h2 class="features__line">—</h2> 
                     </div>
-                    <div>
-                        <p class="features__believe">We believe in decentralized and reliable crypto exchange.</p>
+                    <div class="features__box-title">
+                        <p class="features__title">Core Features</p>
                     </div>
                 </div>
-
-                <div class="features__continue">
-                    <p class="features__question">Want more features?</p>
-                    <p class="features__link"> <a href="#">Contact us to share ideas! →</a></p>
+                <div>
+                    <p class="features__believe-text">We believe in decentralized and reliable crypto exchange.</p>
+                </div>
+                <div class="features__box-question">
+                    <div>
+                        <p class="features__question">Want more features?</p>
+                    </div>
+                    <div>
+                        <p class="features__question-link"> <a href="#" class="features__question-link">Contact us to share ideas! →</a></p>
+                    </div>
                 </div>
             </div>
-
             <div class="features__carousel">
-                <!--carousel-->
-                <div class="features__carousel-block">
-                    <!--carousel block one-->
-                    <!--img src="img/background_carousel.svg" alt="background carousel"> add class -->
-                    <div class="features__carousel-gradient">
-                        <!-- полоса градіента -->
-                    </div>
-                    <div class="features__carousel-information">
-                        <p class="features__carousel-features">Zero Fee</p>
+                <div class="background_carousel__test">
+                    <div class="features__carousel-information-test">
+                        <p class="features__carousel-title">Zero Fee</p>
                         <p class="features__carousel-benefit">Yes, the fee is really zero! In addition, we work with the
-                            best trading platforms and
-                            offer
-                            the best rate in the market. </p>
-                    </div><!-- add class -->
-                    <button></button><!-- add class -->
-                    <button></button><!-- add class -->
+                            best trading platforms and offer the best rate in the market. </p>
+                    </div>
+                </div>
+                <div class="products-carousel">
+                    <button class="products-carousel__prev">←</button>
+                    <div class="products-carousel__slider"></div>
+                    <button class="products-carousel__next">→</button>
+                </div>
+                <div class="features__carousel-block">
+                    <div class="features__carousel-gradient">
+                    </div>
+                    <div class="features__carousel-information">
+                        <p class="features__carousel-title">Zero Fee</p>
+                        <p class="features__carousel-benefit">Yes, the fee is really zero! In addition, we work with the
+                            best trading platforms and offer the best rate in the market. </p>
+                    </div>
                 </div>
 
                 <div class="features__carousel-block">
-                    <!--carousel block two-->
                     <div class="features__carousel-gradient">
-                        <!-- полоса градіента -->
                     </div>
                     <div class="features__carousel-information">
-                        <p class="features__carousel-features">Crypto to Fiat</p>
+                        <p class="features__carousel-title">Crypto to Fiat</p>
                         <p class="features__carousel-benefit">Thanks to our financial partners, you can use Visa or
-                            MasterCard to buy or sell
-                            cryptocurrencies on the platform.</p>
-                    </div><!-- add class -->
-                    <button></button><!-- add class -->
-                    <button></button><!-- add class -->
+                            MasterCard to buy or sell cryptocurrencies on the platform.</p>
+                    </div>
                 </div>
 
                 <div class="features__carousel-block">
-                    <!--carousel block three-->
                     <div class="features__carousel-gradient">
-                        <!-- полоса градіента -->
                     </div>
                     <div class="features__carousel-information">
-                        <p class="features__carousel-features">Oracle</p>
+                        <p class="features__carousel-title">Oracle</p>
                         <p class="features__carousel-benefit">We partner with Oracle iService for the implementation of
-                            cross-platform data services
-                            within
-                            blockchain and off-chain.</p>
-                    </div><!-- add class -->
-                    <button></button><!-- add class -->
-                    <button></button><!-- add class -->
+                            cross-platform data services within blockchain and off-chain.</p>
+                    </div>
                 </div>
 
                 <div class="features__carousel-block">
-                    <!--carousel block four-->
                     <div class="features__carousel-gradient">
-                        <!-- полоса градіента -->
                     </div>
                     <div class="features__carousel-information">
-                        <p class="features__carousel-features">NTF</p>
+                        <p class="features__carousel-title">NTF</p>
                         <p class="features__carousel-benefit">Cryptochange now supports the new trendy technology of NFT
-                            to achieve the digitization of
-                            any
-                            analog assets on blockchain. </p>
-                    </div><!-- add class -->
-                    <button></button><!-- add class -->
-                    <button></button><!-- add class -->
+                            to achieve the digitization of any analog assets on blockchain. </p>
+                    </div>
                 </div>
             </div>
 
@@ -616,31 +619,29 @@
                 <div class="application__text">
 
                     <div class="application__download">
-                        <div class="application__box-line">
-                            <!--yellow line-->
+                        <!--div class="application__box-line">
                             <h2 class="application__line">—</h2>
-                        </div>
-                        <div>
-                            <h2 class="application__call"> Download Our Demo Application</h2>
-                        </div>
+                        </div-->
+                        <!--div-->
+                            <h2 class="application__line application__box-line">—</h2>
+                            <h2 class="application__title">Download Our Demo Application</h2>
+                        <!--/div-->
                     </div>
                     <div>
-                        <p class="application__action">Try all the available features for free and exchange
-                            cryptocurrency
-                            with ease.</p>
+                        <p class="application__offer">Try all the available features for free and exchange
+                            cryptocurrency with ease.</p>
                     </div>
 
                     <div class="application__advantage advantage">
                         <ul>
-                            <!-- add class -->
                             <li class="advantage__block">
                                 <div class="advantage__icon-box">
                                     <div class="advantage__icon">
-                                        <img src="img/icon_wallet.svg" alt="icon wallet">
+                                        <img class="advantage__icon" src="img/icon_wallet.svg" alt="icon wallet">
                                     </div>
                                 </div>
-                                <div class="advantage__text">
-                                    <div class="advantage__name">
+                                <div class="advantage__block-text">
+                                    <div class="advantage__title">
                                         <p>Manage Your Wallet</p>
                                     </div>
                                     <div class="advantage__description">
@@ -655,8 +656,8 @@
                                     </div>
                                 </div>
 
-                                <div class="advantage__text">
-                                    <div class="advantage__name">
+                                <div class="advantage__block-text">
+                                    <div class="advantage__title">
                                         <p>Get Instant Notifications</p>
                                     </div>
                                     <div class="advantage__description">
@@ -671,8 +672,8 @@
                                     </div>
                                 </div>
 
-                                <div class="advantage__text">
-                                    <div class="advantage__name">
+                                <div class="advantage__block-text">
+                                    <div class="advantage__title">
                                         <p>Get Instant Notifications</p>
                                     </div>
                                     <div class="advantage__description">
@@ -693,10 +694,7 @@
                 </div>
                 <div class="application__view">
                     <div class="application__background">
-                        <img src="img/background_phone.webp" alt="background phone">
-                        <div class="application__phone">
-                            <img src="img/phone_screen.png" width="100" alt="phone screen">
-                        </div>
+                        <img src="img/phone_screen.png" alt="phone screen">
                     </div>
                 </div>
             </div>
@@ -708,7 +706,7 @@
                         </div>
                         <div>
                             <p class="banner__description">Learn more about our project and cryptonomics.<a
-                                    href="#">Download
+                                    href="#" class="banner__description-question"> Download
                                     Now ↓</a></p>
                         </div>
                     </div>
@@ -1333,8 +1331,9 @@
             </div>
         </div>
     </footer>
+    <script src="js/heder-burger.js"></script>
+    <script src="js/products-carousel.js"></script>
     <script src="js/clock.js"></script>
-    <script src="js/ico_progress_slider.js"></script>
+    <script src="js/ico-progress-slider.js"></script>
 </body>
-
 </html>
