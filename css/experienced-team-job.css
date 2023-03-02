@@ -3,9 +3,7 @@
     background-color: var(--color-background-eight-block);
 }
 
-.experienced__team {
-    
-}
+.experienced__team {}
 
 .experienced__team-and-job-opportunities {
     display: flex;
@@ -91,7 +89,7 @@
 .job__opportunities {
     display: flex;
     flex-direction: column;
-   
+
 }
 
 .job__line {
@@ -132,7 +130,89 @@
 .press__media {
     display: flex;
     flex-direction: column;
-    padding:10px 24px;
+    padding: 10px 24px;
+}
+
+.press__media_carousel-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    padding: 0 15px 0 15px;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    /* place-items: center; */
+}
+
+.press__media_carousel_slider {
+    display: flex;
+    flex-direction: row;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    scroll-behavior: smooth;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.press__media_carousel_slide {
+    display: inline-block;
+    background-color: #364667;
+    padding: 30px;
+}
+
+/* .press__media_slide_content {
+    margin: 20px;
+} */
+
+.press__media_slide_content-item {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.press__media_slider-paragr {
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 700;
+    color: #fff;
+    text-align: justify;
+}
+
+.press__media_slider-img {
+    width:344px;
+    height: 37px;
+    margin: 20px auto;
+}
+
+.press__media_divider {
+    display: block;
+    margin: 0 auto;
+    width: 28%;
+    height: 3px;
+    background-color: rgb(186, 88, 208);
+}
+
+.press__media_arrow {
+    display: block;
+    position: absolute;
+    top: 40%;
+}
+
+.press__media_arrow#prev {
+    /* left: unset; */
+    right: 92%;
+}
+
+.press__media_arrow#next {
+    /* right: unset; */
+    left: 92%;
+}
+
+.press__media_arrow-img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
 
 .press__items-wrap {
@@ -166,7 +246,7 @@
 .container__want-become-partner {
     display: flex;
     flex-direction: column;
-    padding:0 24px;
+    padding: 0 24px;
 }
 
 
@@ -175,14 +255,14 @@
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
-   
+
 }
 
 .paragraph__want-become-a-partner {
     font-size: 19px;
     color: var(--color-text);
     font-style: italic;
-  text-align: center;
+    text-align: center;
 }
 
 .paragraph__want-become-a-partner span {
@@ -206,7 +286,7 @@
     color: var(--color-title);
     font-weight: 600;
     text-decoration: none;
-   margin-top: 15px;
+    margin-top: 15px;
 }
 
 @media (min-width: 640px) {
@@ -233,10 +313,10 @@
         grid-template-columns: 1fr 1fr;
         column-gap: 20px;
     }
-    
-    
 
-   
+
+
+
 }
 
 @media (min-width: 768px) {
@@ -252,33 +332,50 @@
     .press__items {
         min-height: 200px;
     }
-
+    .press__media_arrow {
+        display: block;
+        position: absolute;
+        top: 40%;
+    }
+    
+    .press__media_arrow#prev {
+        /* left: unset; */
+        right: 96%;
+    }
+    
+    .press__media_arrow#next {
+        /* right: unset; */
+        left: 96%;
+    }
+    
     .press__items-wrap {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         column-gap: 10px;
     }
+
     .container__want-become-partner {
         display: grid;
         grid-template-columns: 1fr 1fr;
-      
+
     }
-    
-    
+
+
     .press__become-a-partner {
         display: flex;
         flex-direction: row;
         justify-content: center;
-       padding:0;
-       
+        padding: 0;
+
     }
- 
+
     .press__learn-more {
         margin-left: 15px;
     }
-    .press__contact-us-button, 
-    .press__learn-more{
-        margin-top:0;
+
+    .press__contact-us-button,
+    .press__learn-more {
+        margin-top: 0;
     }
 
 }
@@ -318,23 +415,25 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         column-gap: 10px;
     }
+
     .container__want-become-partner {
         display: grid;
         grid-template-columns: 1fr 1fr;
-      
+
     }
-    
-    
+
+
     .press__become-a-partner {
         display: flex;
         flex-direction: row;
-        
-       padding:0;
-       
+
+        padding: 0;
+
     }
-  
- 
+
+
 }
+
 @media (min-width: 1200px) {
     .experienced__team-content {
         display: grid;
