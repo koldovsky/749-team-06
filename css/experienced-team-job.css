@@ -187,7 +187,7 @@
 .press__media_slider-img-container{
     display: flex;
     flex-direction: column;
-    
+    margin-top: 40px;
 }
 .press__media_slider-img {
     width: 40%; 
@@ -352,6 +352,9 @@
     .press__media_carousel_slide{
         min-height: 460px;
     }
+    .press__media_slider-img-container{
+        margin-top: 60px;
+    }
     .press__items {
         min-height: 200px;
     }
@@ -427,6 +430,9 @@
 
     .press__media_carousel_slide{
         min-height: 460px;
+    }
+    .press__media_slider-img-container{
+        margin-top: 90px;
     }
     .press__media_arrow#prev {
         left: unset;
