@@ -4,18 +4,18 @@
     const prevBtn = document.querySelector('#prev');
 
     let currentSlideInd = 0;
-    let secondSlideInd;
+    let secondSlideInd, thirdSlideInd;
 
     function renderSlide() {
         let slidesToShow = [slides[currentSlideInd]];
         const slideContainer = document.querySelector(".press__media_carousel_slider");
-        if (window.innerWidth > 992) {
+        if (window.innerWidth > 768) {
             secondSlideInd = currentSlideInd + 1 >= slides.length ? 0 : currentSlideInd + 1;
             slidesToShow.push(slides[secondSlideInd]);
-            // if (window.innerWidth > 1200) {
-            //     thirdSlideInd = secondSlideInd + 1 >= slides.length ? 0 : secondSlideInd + 1;
-            //     slidesToShow.push(slides[thirdSlideInd]);
-            // }
+            if (window.innerWidth > 992) {
+                thirdSlideInd = secondSlideInd + 1 >= slides.length ? 0 : secondSlideInd + 1;
+                slidesToShow.push(slides[thirdSlideInd]);
+            }
         }
         slideContainer.replaceChildren(...slidesToShow);
     }
