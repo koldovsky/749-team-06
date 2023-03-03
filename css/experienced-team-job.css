@@ -136,7 +136,7 @@
 .press__media_carousel-container {
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
+    justify-content: center; 
     position: relative;
     cursor: pointer;
     margin: 15px;
@@ -149,52 +149,59 @@
     gap: 10px;
     /* white-space: nowrap; */
     overflow: hidden;
-    /*scroll-behavior: smooth;
+    /*scroll-behavior: smooth;*/
     justify-content: center;
-    align-items: center; */
+    align-items: center; 
 }
 
 .press__media_carousel_slide {
     display: flex;
     flex-direction: row;
     background-color: #364667;
-    padding: 20px;
+    
+    padding: 10px;
+    min-height: 480px;
 }
 
 .press__media_slide_content {
-   margin: 15px;
+   margin: 5px;
 }
 
 .press__media_slide_content-item {
     margin-bottom: 16px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    
+    
 }
 
 .press__media_slider-paragr {
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 21px;
     font-style: italic;
     font-weight: 700;
     color: #fff;
     text-align: center;
 }
-
-.press__media_slider-img {
-    width: 40%;
-    margin-top: 70px;
+.press__media_slider-img-container{
+    display: flex;
+    flex-direction: column;
     
+}
+.press__media_slider-img {
+    width: 40%; 
+   margin: 0 auto;
 }
 
 .press__media_slider-img-times {
-
-    margin: 30px auto;
+     width: 80%;
+    margin: 15px auto;
 }
 
 .press__media_divider {
     display: block;
-    margin: 30px auto;
+    margin: 10px auto;
     width: 28%;
     height: 3px;
     background-color: rgb(186, 88, 208);
@@ -315,9 +322,7 @@
         grid-template-columns: 1.5fr 1.5fr 1fr;
     }
   
-    .press__media_carousel_slider {
-        gap: 20px;
-    }
+    
 
     .press__media_arrow#prev {
         left: unset;
@@ -344,7 +349,9 @@
         justify-content: space-around;
 
     }
-
+    .press__media_carousel_slide{
+        min-height: 460px;
+    }
     .press__items {
         min-height: 200px;
     }
@@ -358,15 +365,7 @@
         right: unset;
         left: 97%;
     }
-    .press__media_slider-img {
-        width: 40%;
-       
-    }
-    
-    .press__media_slider-img-times {
-    
-        margin: 35px auto;
-    }
+
     .press__items-wrap {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -426,14 +425,8 @@
     }
 
 
-    .press__media_slider-img {
-        width: 40%;
-      
-    }
-    
-    .press__media_slider-img-times {
-    
-        margin: 40px auto;
+    .press__media_carousel_slide{
+        min-height: 460px;
     }
     .press__media_arrow#prev {
         left: unset;
