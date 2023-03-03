@@ -9,10 +9,13 @@
     function renderSlide() {
         let slidesToShow = [slides[currentSlideInd]];
         const slideContainer = document.querySelector(".press__media_carousel_slider");
-        if (window.innerWidth > 768) {
+        if (window.innerWidth > 992) {
             secondSlideInd = currentSlideInd + 1 >= slides.length ? 0 : currentSlideInd + 1;
             slidesToShow.push(slides[secondSlideInd]);
-            
+            // if (window.innerWidth > 1200) {
+            //     thirdSlideInd = secondSlideInd + 1 >= slides.length ? 0 : secondSlideInd + 1;
+            //     slidesToShow.push(slides[thirdSlideInd]);
+            // }
         }
         slideContainer.replaceChildren(...slidesToShow);
     }
