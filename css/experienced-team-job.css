@@ -136,7 +136,7 @@
 .press__media_carousel-container {
     display: flex;
     flex-direction: row;
-    justify-content: center; 
+    justify-content: center;
     position: relative;
     cursor: pointer;
     margin: 15px;
@@ -150,21 +150,17 @@
     /* white-space: nowrap; */
     overflow: hidden;
     /*scroll-behavior: smooth;*/
-    justify-content: center;
-    align-items: center; 
+    /* justify-content: center; */
+    /* align-items: center;  */
 }
 
 .press__media_carousel_slide {
-    display: flex;
-    flex-direction: row;
     background-color: #364667;
-    
     padding: 10px;
-    min-height: 480px;
 }
 
 .press__media_slide_content {
-   margin: 5px;
+    margin: 5px;
 }
 
 .press__media_slide_content-item {
@@ -172,8 +168,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    
+    min-height: 400px;
 }
 
 .press__media_slider-paragr {
@@ -184,18 +179,20 @@
     color: #fff;
     text-align: center;
 }
-.press__media_slider-img-container{
+
+.press__media_slider-img-container {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 70px;
 }
+
 .press__media_slider-img {
-    width: 40%; 
-   margin: 0 auto;
+    width: 30%;
+    margin: 0 auto;
 }
 
 .press__media_slider-img-times {
-     width: 80%;
+    width: 70%;
     margin: 15px auto;
 }
 
@@ -321,8 +318,8 @@
         display: grid;
         grid-template-columns: 1.5fr 1.5fr 1fr;
     }
-  
-    
+
+
 
     .press__media_arrow#prev {
         left: unset;
@@ -349,11 +346,16 @@
         justify-content: space-around;
 
     }
-    .press__media_carousel_slide{
-        min-height: 460px;
+
+    .press__media_slider-img-container {
+        margin-top: 80px;
     }
-    .press__media_slider-img-container{
-        margin-top: 60px;
+    .press__media_slider-img {
+        width: 20%;
+    }
+    
+    .press__media_slider-img-times {
+        width: 60%;
     }
     .press__items {
         min-height: 200px;
@@ -428,12 +430,11 @@
     }
 
 
-    .press__media_carousel_slide{
-        min-height: 460px;
-    }
-    .press__media_slider-img-container{
+
+    .press__media_slider-img-container {
         margin-top: 90px;
     }
+
     .press__media_arrow#prev {
         left: unset;
         right: 98%;
