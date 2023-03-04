@@ -12,14 +12,16 @@
         if (window.innerWidth > 485) {
             secondSlideInd = currentSlideInd + 1 >= slides.length ? 0 : currentSlideInd + 1;
             slidesToShow.push(slides[secondSlideInd]);
-            console.log(slidesToShow)
+            //console.log('1',slidesToShow)
             if(window.innerWidth > 770) {
             thirdSlideInd = secondSlideInd + 1 >= slides.length ? 0 : secondSlideInd + 1;
             slidesToShow.push(slides[thirdSlideInd]);
+            //console.log('2',slidesToShow)
             if(window.innerWidth > 990){
             four_slids = thirdSlideInd + 1 >= slides.length ? 0 : thirdSlideInd + 1;
             five_slids = four_slids + 1 >= slides.length ? 0 : four_slids + 1;
             slidesToShow.push(slides[four_slids],slides[five_slids]);
+            //console.log('3',slidesToShow, 'is innerWidth990', window.innerWidth > 990, 'innerWidth', window.innerWidth )
             }
             }
         }
