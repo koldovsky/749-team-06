@@ -63,6 +63,73 @@
     background: linear-gradient(rgb(127 132 221), rgb(186, 88, 208));
 }
 
-.ico-progress__image {
-    margin: 25px 0;
+.ico-progress__slider {
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.ico-progress__slider-container {
+    display: flex;
+    max-width: 80%;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.ico-progress__slider-buttons {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    margin-top: 10px;
+    
+}
+
+.slider-prev {
+    border-radius: 40%;
+    background: none;
+    color: var(--color-elements);
+    border-color: var(--color-elements);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.slider-next {
+    border-radius: 40%;
+    background: none;
+    color: var(--color-elements);
+    border-color: var(--color-elements);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.slider-next:active,
+.slider-prev:active {
+    background: linear-gradient(rgb(127 132 221), rgb(186, 88, 208));
+}
+
+@media (min-width: 768px) {
+    .ico-progress__row {
+        flex-direction: row;
+    }
+
+    .section-title__title {
+        font-size: 40px;
+    }
+
+    .row__title {
+        font-size: 20px;
+    }
+
+    .row__value {
+        font-size: 24px;
+    }
+    .ico-progress__button {
+        font-size: 22.5px;
+    }
 }
