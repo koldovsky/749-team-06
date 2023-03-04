@@ -319,7 +319,13 @@
         grid-template-columns: 1.5fr 1.5fr 1fr;
     }
 
-
+    .press__media_slider-img {
+        width: 20%;
+    }
+    
+    .press__media_slider-img-times {
+        width: 60%;
+    }
 
     .press__media_arrow#prev {
         left: unset;
@@ -346,13 +352,7 @@
         justify-content: space-around;
 
     }
-    .press__media_slider-img {
-        width: 20%;
-    }
-    
-    .press__media_slider-img-times {
-        width: 60%;
-    }
+
     .press__items {
         min-height: 200px;
     }
