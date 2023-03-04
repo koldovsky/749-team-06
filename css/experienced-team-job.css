@@ -3,8 +3,6 @@
     background-color: var(--color-background-eight-block);
 }
 
-.experienced__team {}
-
 .experienced__team-and-job-opportunities {
     display: flex;
     flex-direction: column;
@@ -43,11 +41,6 @@
     font-weight: 800;
     color: var(--color-title);
 }
-
-
-
-.experienced__team-content-first-group,
-.experienced__team-content-second-group {}
 
 .experienced__team-item {
     min-height: 85px;
@@ -134,24 +127,17 @@
 }
 
 .press__media_carousel-container {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     position: relative;
     cursor: pointer;
     margin: 15px;
-    /* place-items: center; */
 }
 
 .press__media_carousel_slider {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 10px;
-    /* white-space: nowrap; */
-    overflow: hidden;
-    /*scroll-behavior: smooth;*/
-    /* justify-content: center; */
-    /* align-items: center;  */
+    overflow: hidden;  
 }
 
 .press__media_carousel_slide {
@@ -207,7 +193,7 @@
 .press__media_arrow {
     display: block;
     position: absolute;
-    top: 40%;
+    top: 45%;
 }
 
 .press__media_arrow#prev {
@@ -235,10 +221,8 @@
 }
 
 .press__items {
-
     display: flex;
     flex-direction: column;
-
 }
 
 .press__icon {
@@ -307,7 +291,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-
     }
 
     .job__line {
@@ -352,7 +335,10 @@
         justify-content: space-around;
 
     }
-
+    .press__media_carousel_slider {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     .press__items {
         min-height: 200px;
     }
@@ -385,7 +371,6 @@
         flex-direction: row;
         justify-content: center;
         padding: 0;
-
     }
 
     .press__learn-more {
@@ -409,8 +394,6 @@
     .experienced__team-content {
         display: grid;
         grid-template-columns: 1.2fr 1fr;
-
-
     }
 
     .job__item-wrap {
@@ -419,13 +402,10 @@
 
     }
 
-
     .job__line {
         display: block;
         width: 100%;
     }
-
-
 
     .press__media_slider-img-container {
         margin-top: 90px;
@@ -457,13 +437,10 @@
 
     }
 
-
     .press__become-a-partner {
         display: flex;
         flex-direction: row;
-
         padding: 0;
-
     }
 
 
@@ -473,8 +450,6 @@
     .experienced__team-content {
         display: grid;
         grid-template-columns: 1.5fr 1fr;
-
-
     }
    
     .press__media_slider-img {
