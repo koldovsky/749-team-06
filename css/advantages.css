@@ -15,3 +15,16 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.advantages__block h2{
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.advantages__block p{
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
