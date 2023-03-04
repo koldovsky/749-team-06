@@ -6,3 +6,12 @@
     max-height: 30px;
 }
 
+.row__one{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row__two{
+    padding-left: 15px;
+    padding-right: 15px;
+}
