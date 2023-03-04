@@ -9,11 +9,15 @@
 .row__one{
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .row__two{
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .advantages__block h2{
