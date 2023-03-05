@@ -10,14 +10,14 @@
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .row__two{
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .advantages__block{
