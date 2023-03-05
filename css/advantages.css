@@ -5,26 +5,7 @@
     max-width: 40px;
     max-height: 40px;
 }
-.advantages__rupor {
-    max-width: 40px;
-    max-height: 40px;
-}
-.advantages__currencyexchange {
-    max-width: 40px;
-    max-height: 40px;
-}
-.advantages__altcoins {
-    max-width: 40px;
-    max-height: 40px;
-}
-.advantages__bestrait {
-    max-width: 40px;
-    max-height: 40px;
-}
-.advantages__bank {
-    max-width: 40px;
-    max-height: 40px;
-}
+
 .row__one{
     padding-left: 15px;
     padding-right: 15px;
@@ -37,6 +18,10 @@
     padding-right: 15px;
     display: flex;
     flex-direction: column;
+}
+
+.advantages__block{
+    max-width: 320px;
 }
 
 .advantages__block h2{
@@ -55,10 +40,12 @@
 @media (min-width: 768px) {
 	.row__one {
 		display: flex;
+        flex-direction: row;
         justify-content: space-between;
 	}
     .row__two {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
     }
 }
