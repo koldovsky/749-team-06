@@ -110,7 +110,6 @@
 
     .table__column {
         display: grid;
-        grid-row: 1fr 1fr;
         grid-template-columns: 5fr 1fr 5fr;
     }
 
