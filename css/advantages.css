@@ -1,6 +1,14 @@
 .advantages {
     background: linear-gradient(0deg, #2e3e61 0%, rgb(46,62,97) 100%);
 }
+
+.advantages__container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
 .advantages__icons {
     max-width: 40px;
     max-height: 40px;
