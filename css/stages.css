@@ -3,31 +3,35 @@
     padding: 55px 24px 60px;
 }
 
-.roadmap__title-container {
+.stages__title-container {
     display: flex;
     flex-direction: column;
 }
 
-.roadmap-title__title {
+.title-line {
+    color: var(--color-elements);
+}
+
+.stages-title__title {
     font-family: 'Ubantu', sans-serif;
     font-size: 30px;
     color: var(--color-title);
 }
 
-.roadmap-title__addition {
+.stages-title__addition {
     margin: 20px 0 20px 0;
     font-size: 19px;
     color: var(--color-text)
 }
 
-.roadmap-title__link {
+.stages-title__link {
     text-decoration: none;
     font-weight: bold;
     font-size: 19px;
     color: #7F84DD;
 }
 
-.roadmap__table-container {
+.stages__table-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,13 +41,6 @@
 .table__column {
     display: flex;
     justify-content: center;
-}
-
-.table__figure {
-    display: flex;
-    justify-content: center;
-    
-    
 }
 
 .table__circle {
@@ -89,3 +86,51 @@
     margin-top: 20px;
 
 }
+
+@media (min-width: 900px) {
+    .stages__title-container {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        gap: 30px;
+    }
+   
+    .stages-title__addition {
+        margin: 0;
+    }
+    
+
+
+}
+
+@media(min-width: 768px) {
+    .stages__table-container {
+        margin-top: 50px;
+    }
+
+    .table__column {
+        display: grid;
+        grid-row: 1fr 1fr;
+        grid-template-columns: 5fr 1fr 5fr;
+    }
+
+    .table__figure {
+        display: grid;
+        justify-items: center;
+        grid-column: 2/3
+
+    }
+
+    .table__info {
+       grid-column: 3/4;
+    }
+
+    .info-left {
+        text-align: right;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+
+}
+
