@@ -13,7 +13,10 @@
     max-width: 30px;
     max-height: 30px;
 }
-
+.advantages__altcoins {
+    max-width: 30px;
+    max-height: 30px;
+}
 .row__one{
     padding-left: 15px;
     padding-right: 15px;
