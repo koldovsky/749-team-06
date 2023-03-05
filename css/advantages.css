@@ -50,3 +50,15 @@
     margin-top: 10px;
     margin-left: 15px;
 }
+
+
+@media (min-width: 768px) {
+	.row__one {
+		display: flex;
+        justify-content: space-between;
+	}
+    .row__two {
+        display: flex;
+        justify-content: space-between;
+    }
+}
