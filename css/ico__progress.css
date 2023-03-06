@@ -8,10 +8,16 @@
 }
 
 .title-line {
-    color: var(--color-elements);
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: var(--color-elements);
 }
 
-.section-title__title {
+.ico-progress-title__title {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
     font-family: 'Ubantu', sans-serif;
     font-size: 30px;
     color: var(--color-title);
@@ -113,17 +119,19 @@
     background: linear-gradient(rgb(127 132 221), rgb(186, 88, 208));
 }
 
+
 @media (min-width: 768px) {
     .ico-progress__row {
         flex-direction: row;
     }
-
-    .section-title__title {
+    
+    .ico-progress-title__title {
         font-size: 40px;
     }
 
     .row__title {
         font-size: 20px;
+        padding: 0 15px 0 15px;
     }
 
     .row__value {
