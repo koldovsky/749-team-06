@@ -91,7 +91,7 @@
 
 .text__description {
     font-size: 17px;
-    color: rgb(167,167,177);
+    color: var(--color-link);
     margin-top: 20px;
 
 }
