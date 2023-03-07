@@ -158,6 +158,9 @@
     .slids{
         width: 70vw;
     }
+    .button__right{
+        left: 89%;
+    }
     .block__group{
         width: 100vw;
         justify-content: center;
@@ -171,6 +174,9 @@
     .slids{
         width: 35vw;
     }
+    .button__right{
+        left: 90%;
+    }
     .block__group{
         width: 100vw;
         justify-content: center;
@@ -183,6 +189,9 @@
 @media (min-width: 771px) and (max-width: 990px){
     .slids{
         width: 21vw;
+    }
+    .button__right{
+        left: 95%;
     }
     .block__group{
         width: 100vw;
@@ -208,7 +217,7 @@
 
 @media (max-width: 370px) {
     .yellow__arrow{
-        justify-content: center;
+        justify-content: start;
         margin: 0 30px;
         width: 50%;
     }
