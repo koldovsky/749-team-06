@@ -215,7 +215,7 @@
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 485px) {
     .yellow__arrow{
         justify-content: start;
         margin: 0 30px;
@@ -228,7 +228,7 @@
 
 }
 
-@media (min-width: 370px){
+@media (min-width: 485px){
     .incety__arrow{
         display: flex;
         justify-content: space-evenly;
