@@ -1,53 +1,93 @@
-.container__carousel-investors {
-    display: grid;
-    grid-template-rows: 400px;
-    grid-template-rows: auto;
-    gap: 30px;
-    padding-right: 40px;
-    padding-left: 40px;
-    margin-top: 50px;
-    justify-content: center;
-    font-family: 'Ubuntu', sans-serif;
+.wrapper__carousel-investors {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+
 }
 
 .container__investors {
-    background-color:var(--color-background-substrate);
-    padding-top: 40px;
-    padding-right: 45px;
-    padding-bottom: 40px;
-    padding-left: 45px;
-    gap: 10px;
+  background-color: var(--color-background-substrate);
+  padding-top: 40px;
+  padding-right: 45px;
+  padding-bottom: 40px;
+  padding-left: 45px;
+  gap: 10px;
 }
 
 .text__title-fnames-investors {
-    color: var(--color-text);
-    font-size: 22px;
-    font-family: 'Ubuntu', sans-serif;
+  color: var(--color-text);
+  font-size: 22px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .text__article-investors {
-    color: var(--color-subtitle);
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 17px;
+  color: var(--color-subtitle);
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 17px;
 }
 
 .article__datetime-investors {
-    color: var(--color-datetime-investors);
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 12px;
-    margin-top: 20px;
+  color: var(--color-datetime-investors);
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+
+.picture__next-button {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+}
+
+.pull-button {
+  position: absolute;
+  top: 50%;
+  z-index: 200;
+  transform: translateY(-50%);
+}
+
+.slider__next {
+  right: 2%;
+}
+
+.slider__prev {
+  left: 2%;
+}
+
+.slick-slide {
+  margin: 0 20px;
+}
+
+@media (min-width: 150.4px) {
+
+  .wrapper__carousel-investors {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+    padding: 5px;
+  }
 }
 
 @media (min-width: 768px) {
-    .container__carousel-investors {
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-column-gap: 30px;
-    padding-right: 40px;
-    padding-left: 40px;
-    margin-top: 50px;
-    justify-content: center;
-    font-family: 'Ubuntu', sans-serif;
-    }
 
+  .wrapper__carousel-investors {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+    padding: 5px;
+  }
+
+  .slider__next {
+    right: 2%;
+  }
+
+  .slider__prev {
+    left: 2%;
+  }
 }

@@ -8,6 +8,12 @@
     <title>Cryptochange</title>
     <link rel="shortcut icon" href="img/cryptochange-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.5/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.5/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.5/slick-theme.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
 </head>
 
 <body class="">
@@ -983,11 +989,9 @@
         <!---->
         <section class="question-with-statistics">
             <div class="wrapper__headline-question">
-                <div class="container__headline-dash">
-                    <h2 class="dash__large">—</h2>
-                </div>
                 <div class="container__headline-question-text">
-                    <h2 class="text__headline-question">Why Do We All Need Cyptochange?</h2>
+                    <h2 class="text__headline-question"><span class="dash">&mdash;</span>Why Do We All Need Cyptochange?
+                    </h2>
                 </div>
             </div>
             <div class="wrapper__statistics-block">
@@ -1009,7 +1013,7 @@
                         <p class="text__subtitle-statistics">Million active crypto users over the globe.</p>
                     </div>
                 </div>
-
+    
                 <div class="container__title-statistics in-percent">
                     <h2 class="text__title-statistics">0%</h2>
                     <div class="container__divider-statistics">
@@ -1034,59 +1038,67 @@
         </section>
         <section class="investors-feedback">
             <div class="wrapper__headline-feedback">
-                <div class="container__feedback-dash">
-                    <h2 class="dash__large">—</h2>
-                </div>
                 <div class="container__headline-feedback-text">
-                    <h2 class="text__feedback" id="feedback">Feedback From Our Investors</h2>
+                    <h2 class="text__feedback" id="feedback"><span class="dash">&mdash;</span>Feedback From Our Investors
+                    </h2>
                 </div>
             </div>
-            <div class="container__carousel-investors">
-                <div class="container__investors">
-                    <div class="wrapper__investors-images">
-                        <img class="image__investors smith-image" src="img/investors_photos/investor_killian_smith.png"
-                            alt="Kilian Smith Photo">
-                        <div class="container__title-fnames-investors">
-                            <h3 class="text__title-fnames-investors">Killian Smith</h3>
-                            <div class="container__article-investors">
-                                <p class="text__article-investors">«When I first met the
-                                    Cryptochange team at Crypto Expo 2022, I realized they had
-                                    a really great idea and almost everything they needed for its implementation.»
-                                </p>
+            <div class="wrapper__carousel-investors">
+                <div class="slider__next pull-button">
+                    <button type="button" class="picture__next-button"><img src="img/arrows_for_carousel/icon_slide_next.png"
+                            alt="Next"></button>
+                </div>
+                <div class="slider__prev pull-button">
+                    <button type="button" class="picture__next-button"><img src="img/arrows_for_carousel/icon_slide_prev.png"
+                            alt="Next"></button>
+                </div>
+                <div class="container__carousel-investors">
+                    <div class="container__investors" id="smith">
+                        <div class="wrapper__investors-content">
+                            <img class="image__investors smith-image" src="img/investors_photos/investor_killian_smith.png"
+                                alt="Kilian Smith Photo">
+                            <div class="container__title-fnames-investors">
+                                <h3 class="text__title-fnames-investors">Killian Smith</h3>
+                                <div class="container__article-investors">
+                                    <p class="text__article-investors">«When I first met the
+                                        Cryptochange team at Crypto Expo 2022, I realized they had
+                                        a really great idea and almost everything they needed for its implementation.»
+                                    </p>
+                                </div>
+                                <p class="article__datetime-investors">December 15, 2022</p>
                             </div>
-                            <p class="article__datetime-investors">December 15, 2022</p>
                         </div>
                     </div>
-                </div>
-                <div class="container__investors">
-                    <div class="wrapper__investors-images">
-                        <img class="image__investors johnson-image"
-                            src="img/investors_photos/investor_diana_johnson.png" alt="Diana Johnson Photo">
-                        <div class="container__title-fnames-investors">
-                            <h3 class="text__title-fnames-investors">Diana Johnson</h3>
-                            <div class="container__article-investors">
-                                <p class="text__article-investors">«I believe that fast and
-                                    zero-fee exchanges are crucial for the crypto market to
-                                    be treated seriously by financial giants. That's why I believe in Cryptochange.»
-                                </p>
+                    <div class="container__investors" id="johnson">
+                        <div class="wrapper__investors-images">
+                            <img class="image__investors johnson-image" src="img/investors_photos/investor_diana_johnson.png"
+                                alt="Diana Johnson Photo">
+                            <div class="container__title-fnames-investors">
+                                <h3 class="text__title-fnames-investors">Diana Johnson</h3>
+                                <div class="container__article-investors">
+                                    <p class="text__article-investors">«I believe that fast and
+                                        zero-fee exchanges are crucial for the crypto market to
+                                        be treated seriously by financial giants. That's why I believe in Cryptochange.»
+                                    </p>
+                                </div>
+                                <p class="article__datetime-investors">April 21, 2022</p>
                             </div>
-                            <p class="article__datetime-investors">April 21, 2022</p>
                         </div>
                     </div>
-                </div>
-                <div class="container__investors">
-                    <div class="wrapper__investors-images">
-                        <img class="image__investors stuart-image" src="img/investors_photos/investor_dean_stuart.png"
-                            alt="Dean Stuart Photo">
-                        <div class="container__title-fnames-investors">
-                            <h3 class="text__title-fnames-investors">Dean Stuart</h3>
-                            <div class="container__article-investors">
-                                <p class="text__article-investors">«I communicate with dozens of
-                                    crypto projects every month. However, Cryptochange
-                                    seemed to me to be very smart guys with an important idea.»
-                                </p>
+                    <div class="container__investors" id="stuart">
+                        <div class="wrapper__investors-images">
+                            <img class="image__investors stuart-image" src="img/investors_photos/investor_dean_stuart.png"
+                                alt="Dean Stuart Photo">
+                            <div class="container__title-fnames-investors">
+                                <h3 class="text__title-fnames-investors">Dean Stuart</h3>
+                                <div class="container__article-investors">
+                                    <p class="text__article-investors">«I communicate with dozens of
+                                        crypto projects every month. However, Cryptochange
+                                        seemed to me to be very smart guys with an important idea.»
+                                    </p>
+                                </div>
+                                <p class="article__datetime-investors">June 12, 2022</p>
                             </div>
-                            <p class="article__datetime-investors">June 12, 2022</p>
                         </div>
                     </div>
                 </div>
@@ -1119,8 +1131,7 @@
                         <li class="article__news">
                             <div class="wrapper-news-images">
                                 <div class="image__news">
-                                    <img src="img/crypto_news_pictures/coins_of_bitcoin_photo.png"
-                                        alt="Coins Of Bitcoin Photo" width="120">
+                                    <img src="img/crypto_news_pictures/coins_of_bitcoin_photo.png" alt="Coins Of Bitcoin Photo" width="120">
                                 </div>
                             </div>
                             <div class="container__text-article-news">
@@ -1133,8 +1144,7 @@
                         <li class="article__news">
                             <div class="wrapper-news-images">
                                 <div class="image__news">
-                                    <img src="img/crypto_news_pictures/iphone_on_papers.png" alt="Iphone On Papers"
-                                        width="120">
+                                    <img src="img/crypto_news_pictures/iphone_on_papers.png" alt="Iphone On Papers" width="120">
                                 </div>
                             </div>
                             <div class="container__text-article-news">
@@ -1157,8 +1167,7 @@
                         <li class="article__news">
                             <div class="wrapper-news-images">
                                 <div class="image__news">
-                                    <img src="img/financial_news_pictures/motherboard_photo.png" alt="Motherboard Photo"
-                                        width="120">
+                                    <img src="img/financial_news_pictures/motherboard_photo.png" alt="Motherboard Photo" width="120">
                                 </div>
                             </div>
                             <div class="container__text-article-news">
@@ -1171,8 +1180,8 @@
                         <li class="article__news">
                             <div class="wrapper-news-images">
                                 <div class="image__news">
-                                    <img src="img/financial_news_pictures/crypto_exchange_chart_photo.png"
-                                        alt="Сrypto Exchange Chart Photo" width="120">
+                                    <img src="img/financial_news_pictures/crypto_exchange_chart_photo.png" alt="Сrypto Exchange Chart Photo"
+                                        width="120">
                                 </div>
                             </div>
                             <div class="container__text-article-news">
@@ -1185,8 +1194,7 @@
                         <li class="article__news">
                             <div class="wrapper-news-images">
                                 <div class="image__news">
-                                    <img src="img/financial_news_pictures/coins_photo.png" alt="Coins Photo"
-                                        width="120">
+                                    <img src="img/financial_news_pictures/coins_photo.png" alt="Coins Photo" width="120">
                                 </div>
                             </div>
                             <div class="container__text-article-news">
@@ -1209,8 +1217,7 @@
                         <li class="article__news">
                             <div class="wrapper-news-images">
                                 <div class="image__news">
-                                    <img src="img/regulation_news_pictures/phone_in_hand_photo.png"
-                                        alt="Phone In Hand Photo" width="120">
+                                    <img src="img/regulation_news_pictures/phone_in_hand_photo.png" alt="Phone In Hand Photo" width="120">
                                 </div>
                             </div>
                             <div class="container__text-article-news">
@@ -1223,8 +1230,7 @@
                         <li class="article-news">
                             <div class="wrapper-news-images">
                                 <div class="image__news">
-                                    <img src="img/regulation_news_pictures/one_bitcoin_photo.png"
-                                        alt="One Bitcoin Photo" width="120">
+                                    <img src="img/regulation_news_pictures/one_bitcoin_photo.png" alt="One Bitcoin Photo" width="120">
                                 </div>
                             </div>
                             <div class="container__text-article-news">
@@ -1237,8 +1243,7 @@
                         <li class="article-news">
                             <div class="wrapper-news-images">
                                 <div class="image__news">
-                                    <img src="img/regulation_news_pictures/man_with_two_laptops.png"
-                                        alt="Man With Two Laptops Photo" width="120">
+                                    <img src="img/regulation_news_pictures/man_with_two_laptops.png" alt="Man With Two Laptops Photo" width="120">
                                 </div>
                             </div>
                             <div class="container__text-article-news">
@@ -1400,6 +1405,9 @@
     <script src="js/clock.js"></script>
     <script src="js/ico-progress-slider.js"></script>
     <script src="js/paginator-wrapper.js"></script>
+    <script src="js/investors-carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.5/slick.min.js"></script>
 </body>
 
 </html>
