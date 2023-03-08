@@ -11,6 +11,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .question-with-statistics::before {
@@ -39,7 +40,6 @@
     line-height: 50.4px;
     display: inline;
     margin-right: 10px;
-
 }
 
 .dash__large {
@@ -53,8 +53,6 @@
     font-weight: 700;
     font-family: 'Ubuntu', sans-serif;
     align-self: center;
-
-
 }
 
 @media (min-width: 768px) {

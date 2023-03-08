@@ -4,28 +4,30 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    padding-top: 55px;
+    padding-top: 0;
     padding-bottom: 60px;
     font-size: 20px;
     justify-content: space-between;
     align-items: flex-start;
-    width: 100%; 
-    max-width: 1200px; 
-    margin: 0 auto; 
-
-
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .wrapper__headline-feedback {
     padding-right: 40px;
     padding-left: 40px;
     min-height: 126px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .dash {
     color: var(--color-elements);
     display: inline-block;
     line-height: 50.4px;
+    display: inline;
+    margin-right: 10px;
 }
 
 .dash__large {
@@ -35,6 +37,10 @@
 .container__headline-feedback-text {
     color: var(--color-title);
     display: block;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    align-self: center;
 }
 
 .image__investors {
@@ -42,3 +48,17 @@
     border-radius: 50%;
 }
 
+@media (min-width: 768px) {
+    .wrapper__headline-feedback {
+        display: flex;
+        padding-right: 40px;
+        padding-left: 40px;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .container__headline-feedback-text {
+        font-size: 23px;
+    }
+}
