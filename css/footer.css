@@ -1,18 +1,18 @@
 .footer__footer_wrapper {
         background-color: var(--color-background);
         width: 100%;
-        padding: 60px 30px;
+        padding: 60px 100px;
     }
-
+/* 
 @media (max-width: 1920px) {
     .footer__footer_wrapper {
         background-color: var(--color-background);
         width: 100%;
         padding: 60px 60px;
     }
-}
+} */
 
-@media (max-width: 960px) {
+@media (min-width: 960px) {
     .footer__footer_wrapper {
         background-color: var(--color-background);
         width: 100%;
@@ -20,11 +20,34 @@
     }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .footer__footer_wrapper {
         background-color: var(--color-background);
         width: 100%;
         padding: 60px 30px;
+    }
+} */
+@media (min-width: 960px) {
+    .footer__company-info {
+        float: left;
+        max-width: 25%;
+        margin: 0% 15% 5% 0%;
+    }
+}
+
+@media (min-width: 960px) {
+    .footer__useful-links {
+        float: left;
+        max-width: 25%;
+        margin: 0% 15% 5% 0%;
+    }
+}
+
+@media (min-width: 960px) {
+    .footer__follow-us-info {
+        float: left;
+        max-width: 25%;
+        margin: 0% 15% 5% 0%; 
     }
 }
 
@@ -39,7 +62,7 @@
 }
 
 .footer__company-info-description {
-    color: var(--color-text);
+    color: grey;
     font-family: "Fira Sans", sans-serif;
     font-size: 14px;
     text-align: center;
@@ -57,8 +80,8 @@
     text-decoration: none;
 }
 
-.footer__useful-links {
-    
+.footer__usefull-links {
+    margin: 60px 0px 15px 0px;
 }
 
 .footer__useful-links-header {
@@ -66,7 +89,6 @@
     color: var(--color-text);
     font-family: "Ubuntu", sans-serif;
     font-size: 18px;
-    margin: 60px 0px 15px 0px;
 }
 
 .footer__useful-links-header-underline {
@@ -76,11 +98,10 @@
     margin: 15px auto;
 }
 
-
 .footer__useful-links-menu-item {
     display: block;
     text-align: center;
-    color: var(--color-link);
+    color: grey;
     font-family: "Fira Sans", sans-serif;
     font-size: 17px;
     font-weight: 500;
@@ -88,12 +109,8 @@
     margin: 15px;
 }
 
-.footer__follow-us-want-to-know-more {
-    
-}
-
 .footer__follow-us-info {
-    
+    margin: 60px 0px 15px 0px;
 }
 
 .footer__follow-us-header {
@@ -101,7 +118,6 @@
     color: var(--color-text);
     font-family: "Ubuntu", sans-serif;
     font-size: 18px;
-    margin: 60px 0px 15px 0px;
 }
 
 .footer__follow-us-header-underline {
@@ -112,7 +128,7 @@
 }
 
 .footer__follow-us-paragraph {
-    color: var(--color-text);
+    color: grey;
     font-family: "Fira Sans", sans-serif;
     font-size: 14px;
     text-align: center;
@@ -131,8 +147,8 @@
 }
 
 .footer__company-info-icons {
-    margin: auto;
-    width: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .footer__company-info-icons-item {
