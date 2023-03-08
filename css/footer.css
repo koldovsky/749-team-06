@@ -64,6 +64,27 @@
     }
 }
 
+@media (min-width: 960px) {
+    .footer__line {
+        position: absolute;
+        width: 90%;
+        height: 1px;
+        color: rgb(26, 28, 40);
+        margin-bottom: 0px;
+        left: 5%;
+    }
+}
+
+@media (min-width: 960px) {
+    #clock {
+        font-family: "Ubuntu", sans-serif;
+        position: absolute;
+        color: white;
+        bottom: 30px;
+        left: calc(50% - 26px);
+    }
+}
+
 .footer__footer_wrapper {
     position: relative;
     background-color: var(--color-background);
@@ -177,7 +198,7 @@
     width: 90%;
     height: 1px;
     color: rgb(26, 28, 40);
-    bottom: 60px;
+    bottom: 80px;
     left: 5%;
 }
 
@@ -187,5 +208,11 @@
     font-size: 12px;
     font-weight: 700;
     color: var(--color-text);
-    bottom: 0%;
+}
+
+#clock {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
 }
