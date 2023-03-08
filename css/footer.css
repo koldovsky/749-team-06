@@ -42,15 +42,15 @@
 }
 
 @media (min-width: 960px) {
-.footer__copyright-description-item1 {
-    position: absolute;
-    font-family: "Fira Sans", sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    color: var(--color-text);
-    bottom: 30px;
-    left: 5%;
-}
+    .footer__copyright-description-item1 {
+        position: absolute;
+        font-family: "Fira Sans", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--color-text);
+        bottom: 30px;
+        left: 5%;
+    }
 }
 @media (min-width: 960px) {
     .footer__copyright-description-item2 {
@@ -61,7 +61,7 @@
         color: var(--color-text);
         bottom: 30px;
         right: 5%;
-}
+    }
 }
 
 .footer__footer_wrapper {
