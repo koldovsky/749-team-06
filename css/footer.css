@@ -1,18 +1,3 @@
-.footer__footer_wrapper {
-        position: relative;
-        background-color: var(--color-background);
-        width: 100%;
-        padding: 60px 100px;
-    }
-/* 
-@media (max-width: 1920px) {
-    .footer__footer_wrapper {
-        background-color: var(--color-background);
-        width: 100%;
-        padding: 60px 60px;
-    }
-} */
-
 @media (min-width: 960px) {
     .footer__footer_wrapper {
         position: relative;
@@ -24,13 +9,6 @@
     }
 }
 
-/* @media (max-width: 480px) {
-    .footer__footer_wrapper {
-        background-color: var(--color-background);
-        width: 100%;
-        padding: 60px 30px;
-    }
-} */
 @media (min-width: 960px) {
     .footer__company-info {
         position: absolute;
@@ -63,9 +41,34 @@
     }
 }
 
+@media (min-width: 960px) {
+.footer__copyright-description-item1 {
+    position: absolute;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-text);
+    bottom: 30px;
+    left: 5%;
+}
+}
+@media (min-width: 960px) {
+    .footer__copyright-description-item2 {
+        position: absolute;
+        font-family: "Fira Sans", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--color-text);
+        bottom: 30px;
+        right: 5%;
+}
+}
+
 .footer__footer_wrapper {
-    display: block;
+    position: relative;
+    background-color: var(--color-background);
     width: 100%;
+    padding: 60px 40px 20px 40px;
 }
 
 .footer__company-info-logo {
@@ -161,11 +164,12 @@
 .footer__company-info-icons {
     display: flex;
     justify-content: center;
+    margin-bottom: 60px;
 }
 
 .footer__company-info-icons-item {
     width: 40px;
-    margin: 5px;
+    margin: 0px 5px;
 }
 
 .footer__line {
@@ -178,12 +182,10 @@
 }
 
 .footer__copyright {
-    position: absolute;
     text-align: center;
     font-family: "Fira Sans", sans-serif;
     font-size: 12px;
     font-weight: 700;
     color: var(--color-text);
-    bottom: 15px;
-    width: 100%;
+    bottom: 0%;
 }
