@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.5/slick.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.5/slick-theme.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-
 </head>
 
 <body class="">
@@ -1259,79 +1258,145 @@
         </section>
         <!--end of section 9-->
         <!--10 section-->
-        <section id="news" class="news"></section>
-        <div>
-            <div>
-                <div class="yellow__line"></div>
-                <h3>
-                    Get the CRP Token
+        <section id="get-token" class="get-token">
+            <link rel="stylesheet" href="/css/style.css">
+            <link href="/js/main.js">
+            <div class="crp-token">
+                <div class="crp-title">
+                    <div class="yellowline"></div>
+                    <h3 class="crp-token__title"> 
+                            Get the CRP Token
+                    </h3>
+                </div>
+                <p class="crp-token__info">
+                    We issue our CRP tokens during the Cryptochange ICO.
+                </p>
+                <p class="crp-token__info-text">
+                    If you buy the CRP token now, you'll support our development team and help us make Cryptochange even
+                    better!
+                    You could already see the token distribution plan on this site. In addition, our CRP token:
+                </p>
+                    <div class="crp-token_list">
+                        <div class="crp-token_list-item">
+                            <img src="/img/check_mark.svg" alt="check_mark" class="check">
+                            <p class="text-content"> Will be traded on Binance.</p>
+                        </div>
+                        <div class="crp-token_list-item">
+                            <img src="/img/check_mark.svg" alt="check_mark" class="check">
+                            <p class="text-content"> Gives access to the newest platorm features.</p>
+                        </div>
+                        <div class="crp-token_list-item">
+                            <img src="/img/check_mark.svg" alt="check_mark" class="check">
+                            <p class="text-content"> Will give you up to <span class="roi">25% ROI</span>
+                        </div>    
+                    </div>
+            </div>
+            <div class="ico-timer">
+                <h3 class="ico-end">
+                    ICO ends <span class="date">22 August 2022</span>
                 </h3>
-            </div>
-            <p>
-                We issue our CRP tokens during the Cryptochange ICO.
-            </p>
-            <p>
-                If you buy the CRP token now, you'll support our development team and help us make Cryptochange even
-                better!
-                You could already see the token distribution plan on this site. In addition, our CRP token:
-            </p>
-            <div>
-                <img src="img/check_mark.svg" alt="check_mark">
-                <p>Will be traded on Binance.</p>
-                <img src="img/check_mark.svg" alt="check_mark">
-                <p>Gives access to the newest platorm features.</p>
-                <img src="img/check_mark.svg" alt="check_mark">
-                <p>Will give you up to <span>25% ROI</span>.</p>
-            </div>
-        </div>
-        <div>
-            <h3>
-                ICO ends <span>22 August 2022</span>
-            </h3>
-            <div>
-                <div>
-                    <p>294</p>
-                    <p>Days</p>
+                <div class="timer-container">
+                    <div class="timer-item">
+                        <p class="timer-number" id="days">266</p>
+                        <p class="timer-caption">Days</p>
+                    </div>
+                    <div class="verticalline"></div>
+                    <div class="timer-item">
+                        <p class="timer-number" id="hours">3</p>
+                        <p class="timer-caption">Hours</p>
+                    </div>
+                    <div class="verticalline"></div>
+                    <div class="timer-item">
+                        <p class="timer-number" id="mins">19</p>
+                        <p class="timer-caption">Minutes</p>
+                    </div>
                 </div>
-                <div class="verticalline"></div>
-                <div>
-                    <p>3</p>
-                    <p>Hours</p>
+                <div class="ico-stats">
+                    <div class="ico-stat_worth">
+                        <div class="ico-stat-item">
+                            <div class="greyline"></div>                  
+                        </div>
+                        <div class="ico-stat-item_text">
+                            <p class="ico-stat-label">Worth of tokens</p>
+                            <p class="ico-stat-green">$ 24.409.398</p>
+                        </div>
+                    </div>
+                    <div class="ico-stat_tokens">
+                        <div class="ico-stat-item">
+                            <div class="greyline"></div>  
+                        </div>
+                        <div class="ico-stat-item_text">
+                            <p class="ico-stat-label">Tokens</p>
+                            <p class="ico-stat-value">56778</p>
+                        </div>
+                    </div>
+                    <div class="ico-stat_btc">
+                        <div class="ico-stat-item">
+                            <div class="greyline"></div>
+                        </div>
+                        <div class="ico-stat-item_text">
+                            <p class="ico-stat-label">BTC Raised</p>
+                            <p class="ico-stat-value">2057.2145</p>
+                        </div>
+                    </div>
+                    <div class="ico-stat_owners">
+                        <div class="ico-stat-item">
+                            <div class="greyline"></div>
+                        </div>
+                        <div class="ico-stat-item_text">
+                            <p class="ico-stat-label">Owners</p>
+                            <p class="ico-stat-value">32113</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="verticalline"></div>
-                <div>
-                    <p>19</p>
-                    <p>Minutes</p>
+            </div>  
+        </section>
+        <section id="join-crypto" class="join-crypto">
+             <div class="join-crypto_a">
+                <div class="join-community">
+                    <h3 class="join-community-title">Join Crypto Community</h3>
+                    <div class="join-community_subtitle">
+                        <p class="join-community-text">Be the first to know about our updates!</p>
+                        <a href="#" class="join-community-link">Join our newsletter →</a>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <div>
-                    <div class="greyline"></div>
-                    <p>Worth of tokens</p>
-                    <p>$ 24.409.398</p>
-                </div>
-                <div>
-                    <div class="greyline"></div>
-                    <p>Tokens</p>
-                    <p>56778</p>
-                </div>
-                <div>
-                    <div class="greyline"></div>
-                    <p>BTC Raised</p>
-                    <p>2057.2145</p>
-                </div>
-                <div>
-                    <div class="greyline"></div>
-                    <P>Owners</P>
-                    <P>32113</P>
-                </div>
-            </div>
-        </div>
-        <div>
-            <h3>Join Crypto Community</h3>
-            <p>Be the first to know about our updates!</p>
-            <a href="#">Join our newsletter →</a>
-        </div>
+             </div>    
+        </section>
+        <script>
+            var countDownDate = new Date("Aug 22, 2023 16:37:52").getTime();
+    
+            // Run myfunc every second
+            var myfunc = setInterval(function() {
+    
+            var now = new Date().getTime();
+            var timeleft = countDownDate - now;
+                
+            // Calculating the days, hours, minutes and seconds left
+            var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+                
+            // Result is output to the specific element
+            document.getElementById("days").innerHTML = days 
+            document.getElementById("hours").innerHTML = hours 
+            document.getElementById("mins").innerHTML = minutes 
+            console.log("days "+days);
+            //document.getElementById("secs").innerHTML = seconds + "s " 
+                /*
+            // Display the message when countdown is over
+            if (timeleft < 0) {
+                clearInterval(myfunc);
+                document.getElementById("days").innerHTML = ""
+                document.getElementById("hours").innerHTML = "" 
+                document.getElementById("mins").innerHTML = ""
+                document.getElementById("secs").innerHTML = ""
+                document.getElementById("end").innerHTML = "TIME UP!!";
+            }
+            */
+            }, 1000);
+    
+        </script>
         <!--end of section 10-->
     </main>
     <footer id="footer" class="footer">
