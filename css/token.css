@@ -40,8 +40,6 @@
     font-weight: 300;
     color: #a7a7b1;
 }
-.crp-token__list {
-}
 .crp-token_list-item {
     display: flex;
     align-items: center;
@@ -129,14 +127,10 @@
     margin: 19px 0px 0px 16px;
     padding: 0px 12px;
 }
-.ico-stat-item_text {
-}
 .greyline {
     width: 20px;
     background-color: #ffffff;
     height: 1px;
-}
-.ico-stat-label {
 }
 .ico-stat-green {
     font-size: 20px;
