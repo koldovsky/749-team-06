@@ -19,35 +19,37 @@
 }
 .yellowline {
     height: 7px;
-    width: 46px;
-    margin: 10px;
+    width: 48px;
+    margin: 0px 11px 0px 0px;
     background-color: #ffb811;
 }
 .crp-token__title {
     font-family: 'Ubuntu', sans-serif;
     font-size: 48px;
     color: #fff;
-    margin: 48px 0px;
 }
 .crp-token__info {
     font-family: 'Fira Sans', sans-serif;
     font-size: 19px;
     font-weight: 300;
     color: #cfcdd8;
+    margin: 30px 0px 0px;
 }
 .crp-token__info-text {
     font-family: 'Fira Sans', sans-serif;
     font-size: 17px;
     font-weight: 300;
     color: #a7a7b1;
+    margin: 30px 0px 0px;
 }
 .crp-token_list-item {
     display: flex;
     align-items: center;
+    margin: 20px 0px 0px;
 }
 .check {
     border-radius: 100%;
-    margin: 0px 6px;
+    margin: 0px 6px 0px 0px;
     height: 24px;
     width: 20px;
 }
@@ -63,12 +65,12 @@
 .ico-timer {
     max-width: 570px;
     min-width: 272px;
-    padding: 0px 15px;
+    margin: 0px 15px;
     background-color: #21232f;
     height: 378px;
 }
 .ico-end {
-    margin: 50px 0px 0px 16px;
+    margin: 50px 0px 0px 35px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 36px;
     color: #ffffff9e;
@@ -82,8 +84,9 @@
     justify-content: space-evenly;
 }
 .timer-item {
-    margin: 20px 16px;
+    margin: 20px 20px;
     width: 142px;
+    height: 142px;
     padding: 45px 40px 0px 40px;
     text-align: center;
 }
@@ -101,7 +104,7 @@
 }
 .verticalline {
     margin: 50px 0px 0px 0px;
-    height: 100px;
+    height: 90px;
     width: 1px;
     background-color: #30323d;
 }
@@ -113,43 +116,53 @@
     flex-direction: row;
     flex-wrap: wrap;
     font-weight: 300;
+    margin-top: 10px;
 }
 .ico-stat_worth {
+    margin: 0px 0px 16px 20px;
+    padding: 0px 12px;
     display: flex;
 }
 .ico-stat_tokens {
+    margin: 0px 0px 16px;
+    padding: 0px 12px;
     display: flex;
 }
 .ico-stat_btc {
+    margin: 0px 0px 16px;
+    padding: 0px 12px;
     display: flex;
 }
 .ico-stat_owners {
+    margin: 0px 0px 16px;
+    padding: 0px 12px;
     display: flex;
 }
 .ico-stat-item {
-    margin: 19px 0px 0px 16px;
-    padding: 0px 12px;
+    padding: 3px 10px 0px 0px;
 }
 .greyline {
     width: 20px;
     background-color: #51525c;
-    height: 1px;
+    height: 2px;
 }
 .ico-stat-green {
     font-size: 20px;
     color: #58e754;
     font-weight: 500;
+    padding: 5px 0px 0px;
 }
 .ico-stat-value {
     color: #e69d19;
     font-size: 20px;
     font-weight: 500;
+    padding: 5px 0px 0px;
 }
 .join-crypto {
-    padding: 60px 0px 70px;
+    padding: 60px 40px 70px;
     display: flex;
    justify-content: center;
-   background-color: #1a1c28;
+   background-color: #1a1c28; 
  
 }
 .join-crypto_a {
