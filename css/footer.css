@@ -90,6 +90,7 @@
     background-color: var(--color-background);
     width: 100%;
     padding: 60px 40px 20px 40px;
+    margin: 0px;
 }
 
 .footer__company-info-logo {
