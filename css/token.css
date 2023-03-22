@@ -15,12 +15,11 @@
 }
 .crp-title{
     display: flex;
-    align-items: center;
 }
 .yellowline {
     height: 7px;
     width: 48px;
-    margin: 0px 11px 0px 0px;
+    margin: 25px 11px 0px 0px;
     background-color: #ffb811;
 }
 .crp-token__title {
@@ -201,4 +200,154 @@
     align-items: center;
     margin-left: 5px;
     text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    .get-token {
+        height: 653px;
+       padding: 60px 0px;
+    }
+    .crp-token {
+        width: 328px;
+    }
+    .crp-token__title {
+        font-size: 41px;
+    }
+    .ico-timer {
+        width: 328px;
+        height: 533px;
+    }
+    .ico-end {
+        font-size: 33px;
+        margin: 35px 30px 0px;
+    }
+    .timer-item {
+        height: 76px;
+        margin: 0px 20px;
+        padding: 15px 0px;
+        
+    }
+    .verticalline {
+        margin: 0px;
+        height: 76px;
+    }
+    .timer-container {
+        margin: 30px 0px 0px;
+        
+    }
+    .timer-number {
+        font-size: 24px;
+    }
+    .timer-caption {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .ico-stat_worth {
+        margin: 0px 0px 30px;
+    }
+    .ico-stats {
+        margin: 30px 0px 0px 20px;
+    }
+    .crp-token__info {
+        margin: 35px 0px 0px;
+    }
+    .crp-token__info-text {
+        margin: 35px 0px 0px;
+    }
+    .crp-token_list-item{
+        margin: 25px 0px 0px;
+    }
+    .join-crypto {
+        padding: 60px 40px 70px;
+    }
+    .join-crypto_a {
+        height: 166px;
+    }
+    .join-community-title {
+        font-size: 33px;
+        padding: 45px 0px 0px 45px;
+    }
+    .join-community_subtitle {
+        padding: 30px 0px 0px 45px;
+    }
+  }
+@media screen and (max-width: 338px) {
+    .get-token {
+        display: flex;
+        flex-direction: column;
+        padding: 120px 0px 0px;
+        height: 1253px;
+        margin: 0px;
+    }
+    .crp-token {
+        width: 321px;
+        padding: 0px 24px;
+    }
+    .crp-token__title {
+        font-size: 34px;
+    }
+    .ico-timer {
+        padding: 0px;
+        margin: 0px;
+        width: 273px;
+        margin: 50px 24px 0px;
+        height: 540px;
+    }
+    .yellowline {
+        margin: 20px 11px 0px 0px;
+        height: 4px;
+        width: 45px;
+    }
+    .verticalline {
+        height: 61px;
+    }
+    .timer-number {
+        font-size: 18px;
+    }
+    .ico-stat_worth {
+        margin: 0px 0px 20px;
+    }
+    .ico-stat_tokens {
+        margin: 0px 0px 20px;
+    }
+    .ico-stat_btc {
+        margin: 0px 0px 20px;
+    }
+    .ico-stat_owners{
+        margin: 0px 0px 20px;
+    }
+    .timer-item {
+        height: 61px;
+        margin: 0px 20px;
+        padding: 15px 0px;
+    }
+    .ico-end {
+        font-size: 30px;
+    }
+    .ico-stats {
+        display: flex;
+        flex-direction: column;
+    }
+    .join-crypto {
+        height: 382px;
+        padding: 60px 24px 70px ;
+    }
+    .join-crypto_a {
+        height: 260px;
+    }
+    .join-community_subtitle {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0px 0px 40px;
+    }
+    .join-community-link {
+        margin: 0px;
+        max-width: 195px;
+    }
+    .join-community-text {
+        width: 195px;
+    }
+    .join-community-title {
+        padding: 40px 0px 0px 40px;
+        font-size: 30px;
+    }
 }
